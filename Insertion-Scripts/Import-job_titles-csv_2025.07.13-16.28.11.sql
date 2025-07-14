@@ -1,0 +1,5540 @@
+SET DEFINE OFF
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6K06', 'Deputy Sheriff Captain');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A04', 'Police Sergeant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A02', 'Police Officer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B01', 'Firefighter');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T251', 'Tipstaff 1 (General)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1D41', 'Data Service Support Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D44', 'School Crossing Guard');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A11', 'Clerk Typist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H11', 'Carpenter 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A03', 'Police Corporal');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6K02', 'Deputy Sheriff');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S473', 'Special Projects Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I640', 'It Platform Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A01', 'Laborer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H04', 'Correctional Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A398', 'Assistant Managing Director 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B02', 'Collection Customer Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B01', 'Water Operations Repair Helper');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H06', 'Correctional Lieutenant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D17', 'Real Property Evaluator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S635', 'Student Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D12', 'Recreation Leader 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L091', 'Law Clerk 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B400', 'Board Member');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H05', 'Correctional Sergeant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J42', 'Fire Equipment Dispatcher');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D13', 'Recreation Leader 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C249', 'Clerk Temporary-FJD');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D25', 'Recreation Specialty Instructor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A01', 'Clerical Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D16', 'Real Property Evaluator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7D12', 'Custodial Worker 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A37', 'Service Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D45', 'Crossing Guard Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R161', 'Record Clerk 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C220', 'Cleaner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S120', 'Secretary');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9C05', 'Pool Maintenance Attendant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C236', 'Clerical Assistant 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E695', 'Executive Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A035', 'Administrative Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C457', 'Constituent Serv Rep');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D481', 'Digital Recording Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C444', 'Computer Instructor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C801', 'Custodial Worker 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A02', 'Office Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L253', 'Legislative Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S814', 'Special Assistant to City Council');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C318', 'Clip Crew Member 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I435', 'Intern');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A104', 'Accounting Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R531', 'Research Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C194', 'City Council Fellow');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C234', 'Clerical Assistant Interviewer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('N586', 'Nutrition Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C362', 'Communications Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7D11', 'Custodial Worker 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C237', 'Clerical Assistant 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O102', 'Office Support Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A91', 'Departmental Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B54', 'Election And Voter Registration Clerk 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L181', 'Legal Clerk 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P408', 'Pretrial Bail Interviewer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D471', 'Digital Recording Technician Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9A11', 'Library Assistant 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A03', 'Clerk 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4B01', 'Health Care Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7D01', 'General Departmental Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9C11', 'Lifeguard 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J55', '3-1-1 Contact Center Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J31', 'Police Communications Dispatcher Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H02', 'Public Works Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A30', 'Engineering Aide Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C371', 'Community Liaison');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C302', 'Clerk Typist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S016', 'Scaffolding Crew Member 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S301', 'Sheriff Sales Services Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S170', 'Security Guard');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C802', 'Custodial Worker 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F01', 'Automotive Apprentice');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N71', 'Grounds And Facilities Maintenance Worker 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N57', 'Urban Park Ranger 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C231', 'Clerical Aide 1 - Register Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A17', 'Vector Control Worker 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C056', 'Cashier Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H01', 'Trades Helper');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D07', 'Assistant Recreation Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A01', 'Engineering Aide 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A03', 'Semi-Skilled Laborer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C046', 'Case Interviewer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B100', 'Bail Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A084', 'Adm Technician I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P121', 'Personnel Technician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A024', 'Accounting Technician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L254', 'Legislative Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S189', 'Senior Citizen Liaison');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C313', 'Clip Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C233', 'Clerical Assistant Para Professional');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A05', 'Social Work Services Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L04', 'Administrative/Technical Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J06', 'Airport Communications Operator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5E01', 'Certified Peer Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A12', 'Clerk Typist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A396', 'Assistant Managing Director 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5C30', 'Human Relations Intake Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A03', 'Social Services Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B49', 'Tax Analyst Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D10', 'Recreation Leader Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B81', 'Payment Process Clerk 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B10', 'Account Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D03', 'Municipal Guard');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D55', 'Title Registration Aide 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B25', 'Departmental Payroll Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C11', 'Equipment Operator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E248', 'Employee and Labor Relations Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A040', 'Administrative Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D15', 'Public Safety Traffic Enforcement Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C616', 'Court Clerk Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C733', 'Court Representative 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A71', 'Hostler');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1D02', 'Data Entry Operator Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L03', 'Management Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J09', 'Water Customer Care Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A33', 'Asphalt Raker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A23', 'Abatement Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S243', 'Senior Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A42', 'Word Processing Specialist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B52', 'Election & Voter Reg''N Clk 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A06', 'Social Work Services Manager 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F421', 'Fiscal Technician I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L182', 'Legal Clerk 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T454', 'Trades Helper 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J41', 'Fire Equipment Dispatcher Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C11', 'Fingerprint Identification Specialist Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F06', 'Stores Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H34', 'Occupational Safety Technician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A433', 'Asst To The Cao - Hearing Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B02', 'Water Distribution Repair Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B40', 'Interceptor Service Worker 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A620', 'Assistant To The Director Of Finance');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C389', 'Community Outreach Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A18', 'Secretary');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7D31', 'Window Washer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T253', 'Tipstaff 1 (Judicial)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('J271', 'Judicial Secretary 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('N353', 'Network Systems Coordinator I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C570', 'Court Administration Trainee N U');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S275', 'Service Desk Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E45', 'Water Treatment Plant Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A04', 'Clerk 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L183', 'Legal Clerk 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D059', 'Data Services Support Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C442', 'Computer Operator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P042', 'Paralegal');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S445', 'Special Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R162', 'Record Clerk 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('U550', 'Urban Health Policy Fellow');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O082', 'Office Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9A12', 'Library Assistant 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A19', 'Police District Captain''S Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P492', 'Procurement Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N72', 'Grounds And Facilities Maintenance Worker 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7D13', 'Custodial Work Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A02', 'Engineering Aide 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J17', 'Water Customer Care Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K01', 'Electrician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A41', 'Forensic Technician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7D62', 'Recreation Facilities Caretaker 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A025', 'Accounting Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C615', 'Court Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L153', 'Legal Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J72', 'Electronic Voting Machine Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5B21', 'Youth Detention Counselor Trainee (B)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P612', 'Promise Corps Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C493', 'Correspondence Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M078', 'Maintenance Mechanic 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2J01', 'Public Relations Specialist Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6F71', 'Meter Reader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A21', 'Clerical Supervisor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C729', 'Community Relations Liaison');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('V350', 'Veterans Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D09', 'Recreation Outreach Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H05', 'Building Maintenance Mechanic');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3G32', 'Science Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W305', 'Writ Server');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C25', 'Junior Law Enforcement Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C372', 'Communications Liaison');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H48', 'Forensic Scientist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E02', 'Procurement Technician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A06', 'Labor Crew Chief 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E51', 'Pumping Station Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4B02', 'Medical Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T069', 'Technical Support Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('U661', 'Utility Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A058', 'Adm Secretary I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5B22', 'Youth Detention Counselor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J07', 'Airport Communications Center Oper 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B75', 'Medical Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B21', 'Sewer Maintenance Inspector');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5C40', 'Clean Block Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A02', 'Sanitation Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F433', 'Fjd Service Representative 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A906', 'Associate Web Producer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6F02', 'Field Investigator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A02', 'Social Services Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N20', 'Tree Maintenance Helper');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3F04', 'Surveyor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F04', 'Automotive Maintenance Technician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J32', 'Police Communication Dispatcher');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N21', 'Tree Maintenance Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3G42', 'Police Forensic Science Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J07', 'Environmental Health Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C12', 'Equipment Operator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4E15', 'Expanded Function Dental Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C13', 'Heavy Equipment Operator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('8B13', 'Cook Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O580', 'Organizer/Surveyor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C461', 'Constituent Services Liaison');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F13', 'Fleet Stores Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C806', 'Custodial Work Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D51', 'Assessment Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C202', 'Children''S Program Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9A13', 'Library Assistant 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B18', 'Revenue Collection Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J12', 'Environmental Health Inspector');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A085', 'Adm Technician Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C734', 'Court Representative 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B13', 'Emergency Wter Distribution Repair Worke');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9A14', 'Library Digital Resource Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D21', 'Security Officer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A13', 'Highway District Support Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H35', 'Brick Mason');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E70', 'Information Technology Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A08', 'Disease Surveillance Investigator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B01', 'Library Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J01', 'Hvac Mechanic 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P01', 'Airport Operations Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A41', 'Street Crew Chief 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H43', 'Painter 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B53', 'Election & Voter Registration Clerk Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N73', 'Grounds And Facilities Maintenance Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C21', 'Police Tow Truck Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A041', 'Administrative Assistant 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6G90', 'L & I Code Enforcement Inspector');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B40', 'Legal Services Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J56', '3-1-1 Contact Center Agent');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6F11', 'Utility Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9A15', 'Library Conservation Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4E02', 'Dental Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L184', 'Legal Clerk Iv');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S180', 'Security Guard  Sgt');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D04', 'Juvenile Detention Security Guard');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A22', 'Clerical Supervisor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H31', 'Cement Finisher 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B28', 'Tax Assessor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C205', 'Child And Adult Care Food Program Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H40', 'Deputy Sheriff Officer Recruit');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D26', 'Municipal Guard Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B41', 'Interceptor Service Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O847', 'Outreach Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K63', 'Electronic Technician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H51', 'Roofer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A20', 'Executive Secretary');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('K153', 'Keyspot Field Support Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D472', 'Digital Literacy Innovation Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J15', 'Machinery & Equipment Mechanic');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('J272', 'Judicial Secretary 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R163', 'Record Clerk 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L01', 'Administrative Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J15', 'Air Pollution Control Inspector 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A32', 'Highways Line Striper');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S205', 'Senior Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K02', 'Electrician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C487', 'Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C721', 'Court Reporter Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D11', 'Recreation Leader 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D07', 'Juvenile Detention Facility Guard');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D22', 'Security Officer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B24', 'Sewer Maintenance Crew Chief 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L10', 'Administrative Assistant - Non-Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2G02', 'Archivist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E19', 'Geographic Information Systems Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B15', 'Water Field Customer Service Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J45', 'Sanitarian Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C617', 'Court Clerk 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R140', 'Receptionist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J41', 'Public Health Sanitarian');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D57', 'Title Registration Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D32', 'Water Safety Instructor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C735', 'Court Representative 1 (Union)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E23', 'Revenue Investigator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C571', 'Court Administrative Officer 1 N U');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F08', 'Stores Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7D14', 'Custodial Work Supervisor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H22', 'Plumbing And Heating Maintenance Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B02', 'Librarian 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P154', 'Council Photographer Video Media Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C13', 'Fingerprint Identification Specialist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5C41', 'Sanitation Enforcement Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H44', 'Painter 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C29', 'Tractor Trailer Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H90', 'Human Resource Professional 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H30', 'Brick Mason');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9A17', 'Library Cataloging Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F02', 'Automotive Maintenance Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7G06', 'Bridge Maintenance Worker 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2J59', 'Community Initiatives Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A44', 'Forensic Investigator I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7L18', 'Police Photographer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D506', 'Director Of Communications');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F164', 'Field Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H25', 'Graduate Chemist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A05', 'Accountant/Revenue Examiner/Contract Auditor Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H11', 'Graduate Environmental Scientist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H39', 'Pension Counselor Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M033', 'Mailroom Associate');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J02', 'Hvac Mechanic 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6G03', 'Housing & Fire Inspector 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C378', 'Community Liaison/Outreach Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7Q37', 'Prisons Trades Worker 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J34', 'Industrial Process Machinery Mechanic');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E16', 'Traffic Investigator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T254', 'Tipstaff 2 (Judicial)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A059', 'Adm Secretary Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T252', 'Tipstaff 2 (General)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1D59', 'Computer User Support Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B27', 'Departmental Payroll Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J14', 'Machinery and Equipment Mechanic 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A42', 'Forensic Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5B23', 'Youth Detention Counselor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P10', 'Airport Assistant Operations Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A093', 'Administrative Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D040', 'Data Clerk Row');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A07', 'Social Work Services Manager 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D05', 'Juvenile Detention Facility Guard Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C31', 'Concretemobile Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H08', 'Locksmith');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P458', 'Principal Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A18', 'Construction Projects Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1D22', 'Computer Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1D23', 'Computer Console Operator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H12', 'Carpenter 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B82', 'Senior Paymet Processing Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C38', 'Heavy Duty Wrecker Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E42', 'Election Field Investigator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T248', 'Tipstaff 1 General Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H45', 'Painting Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E23', 'Procurement Special Services Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7L19', 'Police Photographer Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B03', 'Water Distribution Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A078', 'Administrative Svc Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C14', 'Heavy Equipment Operator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N29', 'Park/Water Projects Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E46', 'Water Treatment Plant Oper Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A531', 'Assistant District Attorney 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K81', 'Electronic Technician Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H41', 'Deputy Sheriff Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H085', 'Hearing Officer Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E25', 'Revenue Investigation Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E34', 'Stationary Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7Q01', 'Prisons Trades Worker 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B21', 'Fire Service Emergency Medical Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L043', 'Senior Employee And Labor Relations Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6K01', 'Deputy Sheriff Recruit');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I626', 'It Administrative Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D502', 'Director Of Constituent Services');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E277', 'Engagement Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C394', 'Communications Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G620', 'Gis Developer Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('N138', 'Neighbor Services Advocate');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A01', 'Financial Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2J03', 'Public Relations Specialist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A11', 'Engineering Technician I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7P21', 'Sign Fabricator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A445', 'Assistant Deputy City Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J05', 'Airport Communications Services Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A03', 'Engineering Aide 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F30', 'Inventory Control Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B31', 'Excavation Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H27', 'Plumber');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M079', 'Maintenance Mechanic 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H39', 'Masonry Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E03', 'City Planner 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J43', 'Fire Equipment Dispatcher Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B16', 'Water Field Customer Service Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F10', 'Stores Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A06', 'Accountant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S490', 'Special Projects Liaison');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C375', 'Communications Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C572', 'Court Administrative Officer 2 N U');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J16', 'Air Pollution Control Inspector 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5E06', 'Mh Emergency Services Coordinator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4B13', 'Licensed Practical Nurse');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5G11', 'Health Education & Training Specialist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K64', 'Electronic Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C20', 'Criminal Investigative Research Analyst Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P498', 'Probate Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I545', 'Investigative Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P521', 'Probation Officer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A17', 'Construction Projects Technician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A07', 'Labor Crew Chief 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P403', 'Press Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6G04', 'Housing & Fire Inspector 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J40', 'Welder');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N25', 'Tree Maintenance Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S401', 'Social Worker 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7G20', 'Bridge Safety Inspector 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1D28', 'Help Desk/Computer Room Shift Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A600', 'Assistant Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6H90', 'L & I Building Inspector');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A62', 'Health Service Social Worker 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('V322', 'Vacant Lot Surveyor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('V352', 'Video Surveillance Systems Field Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J03', 'Hvac Mechanic Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F03', 'Heavy Duty Vehicle Maintenance Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A12', 'Engineering Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L06', 'Administrative Trainee 1 - Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P531', 'Probation Officer Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B03', 'Librarian 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A441', 'Assistant Chief Admin Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('N351', 'Network Systems Coordinator Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A904', 'Associate Software Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L09', 'Administrative Svcs Supv - Non Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B04', 'Collection Representative Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R171', 'Record Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E801', 'Executive Secretary I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5B24', 'Juvenile Detention Counselor Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D587', 'Director Of Civil Enforcement');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A01', 'Police Officer Recruit');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D477', 'Digital Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B29', 'Contract Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A45', 'Forensic Investigator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H75', 'Airport Pavement & Grounds Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J64', 'Water Meter Repair Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7D64', 'Recreation Dist Caretaker Supervisor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E21', 'Geographic Info Systems Specialist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C736', 'Court Representative 2 (Union)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D28', 'Environmental Education Planner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J18', 'Water Customer Care Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7L12', 'Senior Photographer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D06', 'Juvenile Detention Facility Guard Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E43', 'Maintenance Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A42', 'Street Repair Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A65', 'Contracts Auditor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H26', 'Inmate Computer Based Education Instruct');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H26', 'Analytical Chemist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B31', 'Revenue Examiner 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3G31', 'Chemical Technician Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H26', 'Occupational Safety Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L32', 'Administrative Specialist 2 - Non-Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A66', 'Contracts Auditor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E10', 'Historic Preservation Planner 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I659', 'IT Technical Support Specialist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F15', 'Fleet Stores Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H53', 'Roofing Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T249', 'Tipstaff 2 General Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C26', 'Law Enforcement Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P11', 'Airport Operations Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J57', '3-1-1 Contact Center Agent Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6G28', 'Construction Trades Inspector');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B22', 'Fire Serv Paramedic');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H13', 'Carpentry Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H67', 'Medical Technologist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C417', 'Community School Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A927', 'Associate Business Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('V404', 'Volunteer Engagement Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P541', 'Program Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B106', 'Benefits Access Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P549', 'Program Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A19', 'Vector Control Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B83', 'Payment Process Clerk Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A110', 'Administrative Technician 2 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C14', 'Fingerprint Identification Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C22', 'Police Tow Truck Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B04', 'Graduate Civil Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B60', 'Graduate Environmental Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B10', 'Graduate Electrical Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S306', 'Senior Technical Support Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A71', 'Industrial Waste Control Technician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K17', 'Industrial Electrician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C728', 'Court Reporter');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F423', 'Fiscal Technician 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O544', 'Operational Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1D55', 'Network Support Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A41', 'Auditor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B32', 'Revenue Examiner 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F72', 'Public Health Program Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E61', 'Water Transport System Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H920', 'Human Resource Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E03', 'Procurement Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K15', 'Industrial Electrician 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F71', 'Health Program Management Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A09', 'Financial Accountant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H25', 'Prison Closed Circuit Television Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D090', 'Day Of Service Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F07', 'Automotive Maintenance Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7D15', 'Custodial Work Supervisor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H85', 'Labor Compliance Investigator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L262', 'Legislative Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D295', 'Deputy Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B701', 'Building Maintenance Superintendent 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B20', 'Graduate Mechanical Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J35', 'Industrial Process Mach Mechanic Grp Ldr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A111', 'Administrative Technician 3 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I658', 'IT Technical Support Specialist 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E08', 'Departmental Procurement Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A09', 'Disease Surveillance Investigator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E03', 'Information Management Analyst 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H06', 'Building Maintenance Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H28', 'Plumbing Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L11', 'Administrative Assistant-Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H082', 'Hearing Officer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I669', 'IT Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P522', 'Probation Officer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H27', 'Analytical Chemist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A455', 'Assistant City Treasurer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N74', 'Grounds Maintenance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L092', 'Law Clerk 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E44', 'Maintenance Coordinating Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K68', 'Electronic Technician Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J19', 'Water Customer Care Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A42', 'Auditor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H91', 'Human Resources Professional 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A35', 'Asphalt Maintenance Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C573', 'Court Administrative Officer 3 N U');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D041', 'Data And Compliance Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4H11', 'Registered Dietician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S217', 'Senior Legal Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7G07', 'Bridge Maintenance Worker 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J07', 'Machinist Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I654', 'It Applications Administrator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J05', 'Machinist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E50', 'Claims Adjuster');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D043', 'Data Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L145', 'Lead Gis Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P588', 'Project Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P345', 'Port Security Intelligence Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C036', 'Career Pathways Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('K150', 'Keyspot Program Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I650', 'IT Applications Administrator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P614', 'Promise Corps Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I620', 'It Analyst 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I637', 'It Financial Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('Y420', 'Youth Strategies College and Career Pathways Mgr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I552', 'Investigator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O542', 'Operations Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D567', 'Director Of Neighborhood Services');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A26', 'Waste Collection District Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A72', 'Industrial Waste Control Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H43', 'Deputy Sheriff');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6H33', 'L&I Codes Compliance Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3F05', 'Surveyor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6H25', 'L & I Construction Plans Review Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A19', 'Construction Projects Technician Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F477', 'FJD Armed Probation Officer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H081', 'Conference Officer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C60', 'Equipment Operations Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C127', 'Chief Courtroom Operations Traffic Court');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B61', 'Environmental Engineer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C21', 'Criminal Investigative Research Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B05', 'Civil Engineer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F46', 'Fleet Quality Assurance Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W176', 'Wireless Communications Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A254', 'Applications Support Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F06', 'Fleet Maintenance Team Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A105', 'Accountant I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I662', 'IT Specialist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L155', 'Legal Assistant Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C829', 'Continuum Of Care Board Program Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R530', 'Research Assistant for District Attorney');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R172', 'Record Coordinator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S415', 'Software Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3D04', 'Architectural Project Coord 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C207', 'Citywide Engagement Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C086', 'Central Legal Staff Attorney Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A004', 'Accountant 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P04', 'Airports Properties Specialist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H16', 'Hiring Services Support Supv');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H92', 'Employee and Labor Relations Analyst 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B29', 'Tax Assessor Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A434', 'Asst To The Cao - Senior Hearing Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A432', 'Asst To The Cao - Hearing Off Supv');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('8B10', 'Correctional Food Program Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C27', 'Senior Law Enforcement Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A451', 'Assistant City Solicitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A251', 'Application Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D060', 'Data Systems Supervisor Row');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H45', 'Deputy Sheriff Sergeant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B22', 'Mechanical Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B33', 'Revenue Examiner 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S310', 'Senior It Administrative Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3F20', 'Street Plans Designer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C04', 'Health Program Budget Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A80', 'Social Service/Housing Program Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7Q39', 'Prison Maintenance Group Leader 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J33', 'Water Maintenance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K18', 'Industrial Electrician Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D067', 'Data Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C096', 'Certified Real-time Reporter');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E49', 'Water Pollution Control Plant Oper Supvr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P124', 'Personnel Technician 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E40', 'Housing and Community Development Analyst 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N41', 'Park Construction Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F74', 'Behavioral Health Clinical Consultant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3G43', 'Police Forensic Science Technician Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C420', 'Community Education Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I656', 'IT Network Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I638', 'It Contract Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D508', 'Director Of Legislation');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A062', 'Row Administrative Deputy');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P860', 'Public Art Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D072', 'Data Warehouse Quality Assurance Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C714', 'Court Programs Analyst 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B06', 'Civil Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B62', 'Environmental Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D310', 'Deputy Director Of Community Affairs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A452', 'Assistant City Solicitor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J42', 'Sanitarian Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H61', 'Building Maintenance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6H61', 'L&I Code Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J45', 'Fire Equip Dispatcher Asst Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A902', 'Associate Systems Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F69', 'Contract Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C574', 'Court Administrative Officer 4 N U');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3D05', 'Architectural Project Coord 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E07', 'Local Area Network Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B727', 'Business Intelligence Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C730', 'Court Reporter Sr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C185', 'City Council Administrative Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C731', 'Court Reporter M C');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A443', 'Assistant To City Controller');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7Q76', 'Industries Shop Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A49', 'Medicolegal Death Investigator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P568', 'Programmer Analyst 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('J430', 'Juvenile Probation Training Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F402', 'Fiscal Coordinator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B39', 'Legal Support Services Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P413', 'Pretrial Services Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5G12', 'Health Education & Training Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2G03', 'Archivist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H66', 'Medical Technologist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H08', 'Agronomist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B21', 'Mechanical Engineer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I420', 'Inheritance Tax Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L20', 'Administrative Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B05', 'Water Conveyance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P24', 'Airport Public Info Program Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D27', 'Environmental Education Program Speclist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D557', 'Director Of Real Estate');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B74', 'Engineering Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('N210', 'Net Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S724', 'Supervisor Of Orphans Court');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B71', 'Construction Engineer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B56', 'Air Management Engineering Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H07', 'Correctional Captain');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A752', 'Assistant Policy Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5C32', 'Human Relations Representative 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J18', 'Air Pollution Control Inspection Supv');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H46', 'Deputy Sheriff Lieutenant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H72', 'Forensic Scientist 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H65', 'Senior Human Resources Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6K03', 'Deputy Sheriff Detective');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E676', 'Executive Support Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S512', 'Staff Attorney 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M315', 'Member Of The Board Of Revision Of Taxes');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I652', 'It Resourcing Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I427', 'Information Security Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S509', 'Staff Attorney');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D066', 'Data Services Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C157', 'Chief Of Staff');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D535', 'Director Of Community Services');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R561', 'Research Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D176', 'Deputy Chief Of Staff');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M126', 'Manager of Orphans Court');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E62', 'Systems Programmer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D765', 'Domestic Relations Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A19', 'Senior Accountant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E17', 'Web Editor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B51', 'Tax Analyst 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A087', 'Adm Technician Iv');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F30', 'Fleet Maintenance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5B25', 'Youth Detention Shift Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H63', 'Building Maintenance Superintendent 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K57', 'Streets Electronic Systems Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I660', 'It Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S285', 'Senior Application Support Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L17', 'Administrative Specialist 2-Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B08', 'Water Customer Service Assistant Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C416', 'Community School Coordinator Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G622', 'Gis System Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5E07', 'Mh Emergency Services Coordinator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H31', 'Mass Spectrometrist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B11', 'Library Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A05', 'Mammographer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S291', 'Senior Engagement Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D400', 'Deputy Chief Financial Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H32', 'Training And Development Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E04', 'City Planner 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4C02', 'Community Health Registered Nurse');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D18', 'Real Property Evaluator 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F478', 'FJD Armed Probation Officer II');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B19', 'Fire Service Emergency Medical Technician-Advanced');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I619', 'IT Analyst 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H58', 'Senior Departmental Human Resources Associate');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H62', 'Building Maintenance Superintendent 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B08', 'Library Supervisor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F39', 'Departmental Inventory Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F16', 'Fleet District Stores Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E09', 'Procurement Operations Support Mgr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K58', 'Street Lighting Superintendent');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B16', 'Library Special Collections Curator (General) (Music)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A08', 'Social Work Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C23', 'Criminal Investigative Research Specialist Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D070', 'Data Warehouse Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S321', 'Senior Data Warehouse Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K70', 'Communications Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B09', 'Water Field Customer Service Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J32', 'Water Maintenance Superintendent');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3F15', 'Assistant Surveyor & Regulator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E77', 'Programmer Analyst 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E11', 'Historic Preservation Planner 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I411', 'Information Technology Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M114', 'Director Of Veterans Advisory Commission');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A926', 'Associate Project Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B710', 'Business Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C392', 'Communications And Engagement Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H93', 'Employee and Labor Relations Analyst 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I447', 'Intake Interviewer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D210', 'Deputy City Solicitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I644', 'IT Software Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L33', 'Administrative Specialist-Supervisory-Non Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K67', 'Electronic Equipment Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T561', 'Training Specialist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H083', 'Conference Officer III');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J60', 'Industrial Hygienist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O100', 'Office Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I661', 'IT Project Manager 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P040', 'Park Concessions Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A51', 'Prosecution Detective 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E34', 'Minority/Disadvantaged Business Enterprise Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I648', 'It Systems Engineer 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H18', 'Laboratory Program Scientist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H11', 'Departmental Human Resources Manager 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P09', 'Airport Operations Officer Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H34', 'Correctional Inmate Classification Supv');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A13', 'Engineering Plans Design Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P50', 'Airport Pavement & Grounds Superintendent');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I647', 'It Systems Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A81', 'Social Service Program Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F73', 'Health Program Analysis Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A641', 'Assistant Director Of Strategic Initiatives');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F301', 'Finance Director For Reg Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D404', 'Deputy Director Of Operations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A12', 'Psychologist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C370', 'Communications Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C575', 'Court Administrative Officer 5 N U');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I646', 'IT Specialist 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S422', 'Solicitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I657', 'IT Specialist 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E16', 'Web User Interface Designer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F22', 'Research & Information Analyst 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C116', 'Chief Financial Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H47', 'Deputy Sheriff Captain');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A602', 'Asst Director For Administrative Services');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C05', 'Budget Officer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4P01', 'Dentist 1  Half-Time');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F34', 'Utility Financial Services Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D047', 'Data Warehouse Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S807', 'Systems Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D215', 'Deputy City Solicitor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A113', 'Ada Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P579', 'Project Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S271', 'Senior Project Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P558', 'Programs Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A903', 'Associate Youth Ombudsperson');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D572', 'Director Of Strategic Initiatives');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P525', 'Probation Officer 5');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A73', 'Industrial Waste Control Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2M39', 'Voter Registration Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2J08', 'Departmental Public Relations Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K06', 'Airport Electrical Services Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A07', 'Accounting Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A30', 'Abatement Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F26', 'Fiscal Analyst 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B11', 'Revenue Collection Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A12', 'Detective');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A10', 'Disease Surveillance Program Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7Q70', 'Correctional Industries Assist Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S324', 'Senior Talent Acquisition Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S267', 'Senior Staff Attorney');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A46', 'Auditor 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D18', 'Recreation Programming Coodinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5E08', 'Mental Health Emergency Services Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E41', 'Housing and Community Development Analyst 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W160', 'Web Content Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P573', 'Programmer Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C820', 'Custody/Support Master');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6H50', 'Licenses and Inspections Code Enforcement Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W157', 'Web Producer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S287', 'Senior Network Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D260', 'Deputy Communications Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D420', 'Deputy To District Attorney');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D195', 'Deputy City Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6H45', 'L & I Construction Compliance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B40', 'Tax & Revenue Conferee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H16', 'Environmental Scientist Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E089', 'Education Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S188', 'Sr Manager Of Neighbor Economic Devel');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B03', 'Fire Lieutenant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H30', 'Analytical Chemistry Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E78', 'Programmer Analyst Project Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6K05', 'Deputy Sheriff Lieutenant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A54', 'Health/Human Services Executive Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B81', 'Engineering Supervisor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C43', 'Health & Human Svs Assist Fiscal Admin');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B61', 'Administrative Librarian 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D660', 'Dir Of Professional Development, Diversity & Inclusion');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S308', 'Senior Policy Advisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D350', 'Deputy-Orphans Court');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I667', 'IT Program Manager 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H914', 'Human Resources Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D489', 'Director Of Policy');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A810', 'Assistant Solicitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E63', 'Systems Programmer Project Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B06', 'Regional Librarian');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S178', 'Senior Advisor To Councilmember');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('J415', 'Juvenile Court Hearing Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B06', 'Water Conveyance Sys Asst Superintendent');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E699', 'Executive Asst To The Dir Of Finance');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A52', 'Prosecution Detective 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I630', 'It Financial Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A532', 'Assistant District Attorney 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H14', 'Environmental Scientist Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B23', 'Fire Paramedic Lieutenant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H73', 'Forensic Scientist 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P527', 'Probation Officer V (Union)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E22', 'Geographic Information Sys Specialist 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A05', 'Police Lieutenant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L18', 'Executive Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H12', 'Departmental Human Resources Manager 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3F16', 'Surveyor And Regulator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A037', 'Accounting Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S340', 'Service Designer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A530', 'Assistant Deputy Mayor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B09', 'Library Supervisor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A08', 'Accounting Transactions Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B55', 'Tax Collections Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B13', 'Fire Boat Pilot');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B11', 'Fire Boat Engineer/Co-Pilot');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F21', 'Health Services Administrator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H902', 'Human Resource Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E12', 'Historic Preservation Planner 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E08', 'Municipal Art Planner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H82', 'Prison Maintenance Services Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F23', 'Research & Information Analyst Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4C03', 'Community Health Nursing Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B47', 'Water Transport Engineer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D15', 'Parks And Recreation Program Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B75', 'Staff Engineer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A63', 'Health Services Social Work Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S260', 'Senior Software Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I621', 'It Analyst 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E289', 'Emergency Management Coordinator 8');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I436', 'Information Security Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I633', 'It Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F27', 'Health Program Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A09', 'Human Services Program Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E54', 'Economic/Housing Development Contract Admin');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5C33', 'Human Relations Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H33', 'Training & Development Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6H63', 'L&I Code Administration Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C154', 'Chief Of Staff/ Overtime Manager & Service Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D180', 'Deputy City Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D485', 'Director I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P526', 'Probation Officer 6');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C832', 'Chief Investigator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3D10', 'Architectural Projects Coordinator 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I409', 'Information Technology Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A69', 'Contracts Audit Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S469', 'Special Assistant To The Mayor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C19', 'Budget Analyst Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E06', 'Network Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D19', 'Real Property Evaluation Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A29', 'Radiology Services Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F70', 'Contract Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H39', 'Public Health Lab Sec Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E05', 'City Planner Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B63', 'Environmental Engineer 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F430', 'Fjd Database Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I642', 'It Platform Administrator 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S201', 'Senior Attorney');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A065', 'Administrative Services Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D500', 'Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H79', 'Administrative Scientist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6H46', 'L & I Construction Inspections Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A91', 'Shelter Services Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F388', 'First Deputy - Orphans Court');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D618', 'Director of Community Engagement');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A44', 'Audit Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E06', 'City Planner Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B76', 'Staff Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B48', 'Water Transport Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A67', 'Contracts Audit Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H03', 'Human Resources Tech Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L148', 'Lead Database Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A53', 'Prosecution Detective Sergeant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I433', 'Information Security Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I470', 'Infrastructure It Facilities Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C083', 'CEO-Director of Finance');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D375', 'Deputy Managing Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F305', 'Finance, Policy And Data Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C388', 'Community Organizer Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P21', 'Commercial Airline/Air Service Development Mgr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I649', 'IT Systems Engineer 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B04', 'Fire Captain');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L094', 'Law Clerk 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D716', 'Director Of Lgbt Affairs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D185', 'Deputy Chief Sheriff');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A425', 'Assistant To Chief Of Staff');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A33', 'Fiscal Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B82', 'Engineering Supervisor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E64', 'Systems Programmer Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H40', 'Forensic Laboratory Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A13', 'Prison Psychologist Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A20', 'Social Science Research Statistician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H13', 'Departmental Human Resources Manager 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B72', 'Construction Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S495', 'Sql Database Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C134', 'Chief Deputy Sheriff');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S200', 'Senior Staff Advisor 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B34', 'Revenue Examiner 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B88', 'Bridge Operations & Maintenance Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H78', 'Occupational Safety Administrator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N75', 'Parks And Recreation Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E700', 'Executive Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D41', 'Parks And Recreation Regional Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E79', 'Programmer Analyst Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4C19', 'Health Care Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H24', 'Hiring Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B07', 'Water Conveyance Systems Superintendent');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N56', 'Urban Park Ranger Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D486', 'Director Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A31', 'Pharmacist (B)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A533', 'Assistant District Attorney 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B64', 'Environmental Engineer 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S462', 'Special Events Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B24', 'Fire Paramedic Captain');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O078', 'OCF Playful Learning Fellow');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A21', 'Revenue Accounting Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F27', 'Fiscal Analyst 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2N04', 'Administrative Services Director 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C415', 'Communications Director For Education');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D580', 'Divisional Deputy City Solicitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B85', 'Building Plans Examination Engineer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D475', 'Digital Media Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P12', 'Airport Security Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H11', 'Deputy Warden');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C20', 'Air Management Administrative Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D53', 'Park Public Relations And Recreation Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A402', 'Assistant Managing Director 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D742', 'Digital Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B79', 'Design And Construction Proj Mgr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H72', 'Building Services Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A06', 'Police Captain');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S215', 'Senior Director of Office Culture and HR');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4C43', 'Certified Registered Nurse Practitioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F26', 'Health Program Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B68', 'Building Maintenance Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D492', 'Director of Neighborhood Initiatives');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C133', 'Chief Deputy Register Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D527', 'Director, Fraud Unit');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B05', 'Fire Battalion Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C140', 'Chief 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S218', 'Senior Director of Finance');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E82', 'Departmental Computer Info Systems Dir');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2N05', 'Administrative Services Director 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E37', 'Data Center Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J56', 'Environmental Hlth Program Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B83', 'Water Engineering Projects Asst Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F75', 'Contract And Planning Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E26', 'Water Information Center Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D607', 'Director, Human Resources And Workforce Development');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C201', 'Chief Ethics Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A535', 'Assistant District Attorney 5');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C68', 'Water Engineering Projects Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D617', 'Director of Human Resources, DAO');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C128', 'Chief Courtroom Operatons Cp');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A53', 'Human Services Staff Services Dir');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F22', 'Health Services Administrator 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B25', 'Fire Paramedic Services Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D762', 'Deputy Exec Dir of Culture, Compliance, Org Infrastructure');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I429', 'Information Technology Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E272', 'Enterprise Architect');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L026', 'Labor Procurement And Litigation Attorney');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C130', 'Chief Dep-City Solicitor-Litigation');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H76', 'Employee Relations and Development Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B59', 'Water Utility Assistant Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E32', 'Information Systems Project Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A28', 'Sanitation Operation Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D250', 'Deputy Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B20', 'Revenue Collections Officer 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A597', 'Deputy Commissioner For Project Management');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H12', 'Warden');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D339', 'Deputy Director For Finance And Administration');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D345', 'Deputy Info Tech Director Dhs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H44', 'Scientific Services Assistant Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D562', 'Director Of Legislative Affairs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D320', 'Deputy Director of Worker Protections');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I635', 'It Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B21', 'Revenue Collections Officer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C123', 'Chief Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B06', 'Fire Deputy Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D402', 'Deputy Revenue Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C28', 'Water Utility Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H38', 'Laboratory Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D744', 'Director Of Public Engagement');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I489', 'Internal Accounting Auditor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A43', 'Human Services Program Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S325', 'Senior Legislative Counsel & Chief Ethics Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C47', 'Streets Assistant Chief Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D554', 'Director Of Research And Analysis');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N49', 'Parks Operations Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C211', 'Chief Strategy and Communications Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A08', 'Police Staff Inspector');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C32', 'Airport Engineering Mgr Design & Constr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A09', 'Police Inspector');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D337', 'Deputy Executive Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('J401', 'Jury Selection Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C21', 'Air Management Program Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D166', 'Deputy Chief Admin Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D470', 'Deputy Chief Information Security Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F23', 'Health Servs Adm 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D603', 'Director Of Communications');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D576', 'Director Of Public Affairs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D537', 'Director, Gis Enterprise Technologies');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C173', 'Chief Compliance Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D325', 'Deputy Director Of Finance');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D488', 'Director Of Policy & Planning');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F385', 'First Deputy Inspector General');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D556', 'Director Of Enforcement');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G605', 'General Counsel');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B26', 'Fire Paramedic Deputy Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D533', 'Director Of Administrative Services');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D200', 'Deputy City Treasurer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F30', 'Behavioral Health/Intellectual Disability Services Prog Dir');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C13', 'Chief Engineer And Surveyor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D315', 'Deputy Director Of Commerce');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D675', 'Digital Services Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B07', 'Assistant Fire Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D160', 'Deputy Chief Information Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B20', 'Fire Special Operations Deputy Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D395', 'Deputy Personnel Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A45', 'Audit Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A10', 'Chief Police Inspector');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D326', 'Deputy Dir Of Finance-City Treasurer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C167', 'Chief Information Security Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A514', 'Assistant Deputy Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C125', 'Chief Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A35', 'Pharmacy Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C356', 'Commissioner Of Licenses & Inspections');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C209', 'Chief Prevention Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C172', 'Chief Assessment Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F431', 'Fjd Chief Information Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D761', 'Director of Strategic Design');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C350', 'Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I423', 'Inspector General');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C149', 'Chief Technology Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D324', 'Deputy Director Of Finance Risk Mgmt');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D515', 'Dir Of Ofce Of Beh Hlth/Mental Retard Svs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C195', 'City Solicitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D159', 'Deputy Chief Of Staff For Policy');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4D06', 'Physician (S)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R215', 'Parks And Recreation Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D739', 'Director Of Commerce');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C144', 'Chief Administrative Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D543', 'Director Of Planning');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A536', 'Assistant District Attorney 6');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4D07', 'Medical Specialist (S)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S449', 'Special Aide To Chief Of Staff');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C189', 'City Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M120', 'Managing Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A156', 'Airport Chief Revenue Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D540', 'Director of Labor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4D46', 'Pathologist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D454', 'Deputy Mayor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S179', 'Senior Advisor To The Mayor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4D47', 'Assistant Medical Examiner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4D48', 'Deputy Medical Examiner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4D49', 'Medical Examiner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4N06', 'Physician (Hourly)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P574', 'Project Analyst Team Lead');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C355', 'Commissioner On Human Relations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S657', 'Summer Student Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W294', 'Work Study Intern');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B320', 'Bilingual Receptionist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E314', 'Engineering Intern');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A178', 'Airport Information Receptionist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C340', 'Commission Member');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L090', 'Law Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G600', 'Graduate Intern');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L305', 'Library Facility Guard');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H399', 'High School Intern Apprentice');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A981', 'Automotive Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M600', 'Monitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O103', 'Oit Co-Op');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S640', 'Summer Intern');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W292', 'Work Site Monitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C232', 'Clerical Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R301', 'Recreation Specialty Instructor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C403', 'Community Apprentice');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H395', 'High School Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B61', 'Election And Voter Reg Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S002', 'Seasonal Library Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A151', 'After School Program Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9C12', 'Lifeguard 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9C03', 'Seasonal Maintenance Attendant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9C07', 'Pool Equipment Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F457', 'Food Coordinator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P067', 'Payroll/Personnel Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F404', 'Fiscal Coordinator I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C235', 'Clerical Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B316', 'Brt Hearing Room Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C075', 'Casual Professional Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4N08', 'Medical Care Clinical Director (Hourly)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F400', 'Fiscal Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P875', 'Public Health Emergency Medical Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S024', 'Scheduler');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F470', 'Food Service Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('U535', 'Upward Mobility Project Intern');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C084', 'CEO Intern');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W293', 'Work Study Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F487', 'Future Track Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C210', 'Civil Service Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('U530', 'Unpaid Intern');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4D09', 'Medical Services Director (S)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L08', 'Administrative Services Supervisor-Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F14', 'Fleet Stores Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P125', 'Personnel Technician 5');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C054', 'Cashier - Register Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C800', 'Custodial Services Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M050', 'Maintenance Foreman');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E05', 'Claims Adjuster 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A150', 'After School Program Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C409', 'Community Services Rep');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I651', 'IT Database Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E365', 'EEO Compliance Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P547', 'Program Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C451', 'Content/Technical Writer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C230', 'Clerical Aide - Register Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C239', 'Clerical Assistant 2 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E284', 'Emergency Management Coordinator 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H31', 'Instructor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H400', 'High School Intern');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C500', 'Councilmember');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C095', 'Chairman, Civil Service Commission');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C221', 'Clean & Seal Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D604', 'Director Of Special Projects');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D670', 'Digital Engagement Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A27', 'Radiographer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D509', 'Director Of Community Relations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D707', 'Duplicating Equip Supr 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S171', 'Security Officer 2 FJD');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5E12', 'Health Program Outreach Worker 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A54', 'Physician Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F20', 'Mail Processing Center Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7M07', 'Office Machinery Equipment Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P312', 'Policy & Research Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2M56', 'Election/Public Integrity Compliance Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S009', 'Same Day Work Pay Retention Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A626', 'Asst Supv To The Finance Director Register Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7Q36', 'Prison Maintenance Group Leader 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B21', 'Payroll Examiner 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E08', 'Claims Adjuster 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A624', 'Assistant To The Executive Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C087', 'Central Office Messenger I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5E25', 'Drug Prevention Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C301', 'Clerk Typist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A17', 'Psychologist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3A41', 'Highway Construction Inspector 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D170', 'Deputy Chief I Ctrm Operations Fc');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S269', 'Service Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C238', 'Clerical Assistant 1 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T400', 'Technology Apprentice');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D31', 'Water Safety Instructor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H904', 'Human Resource Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B23', 'Payroll Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A042', 'Administrative Assistant 2 Row');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6F12', 'Field Representative Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F411', 'Fiscal Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C050', 'Cashier-Courts');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A512', 'Assistant Deputy Commissioner Financial Services');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2M89', 'Prosecution Assistant 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J61', 'Water Meter Service Worker');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6K04', 'Deputy Sheriff Sergeant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J14', 'Telecommunications Services Representative 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E770', 'Executive Director Of The Youth Commission');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D029', 'Database Administrator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K36', 'Communications/Audio-Visual Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P309', 'Policy Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M076', 'Maintenance Mechanic 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2J02', 'Public Relations Specialist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C435', 'Compliance Associate');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F337', 'Financial Policy Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D126', 'Departmental Aide Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R551', 'Research Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J02', 'Communications Center Dispatcher');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D409', 'Deputy Youth Ombudsperson');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I493', 'Interpreter 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('Q048', 'Quality Assurance Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A40', 'Auditor Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A721', 'Asst Legistar System Admin');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C365', 'Communications Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H86', 'Labor and Wage Compliance Inspector');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A04', 'Financial Accountant Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C186', 'City Council Administrative Services Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L05', 'Public Administration Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P314', 'Policy And Digital Content Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D719', 'Disability Constituent Services Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I641', 'It Network Engineer 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C384', 'Community Organizer Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D536', 'Director Of Community Development');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D042', 'Data Clerk 2 - Register Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P722', 'Provider Engagement Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B07', 'Graduate Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9G11', 'Graphic Design Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C213', 'Chief Racial Equity Strategist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4N33', 'Executive Medical Director - Hourly');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C12', 'Fingerprint Identification Specialist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C037', 'Career Pathways Student Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C810', 'Custodial Worker 2 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7Q31', 'Prison Hvac Mechanic');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B76', 'Senior Medical Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O081', 'Office Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B86', 'Building Plans Examination Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C450', 'Confidential Secretary');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C30', 'Fiscal Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C300', 'Clerk Typist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F21', 'Research & Information Analyst 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C833', 'CoC Program Manager for Underrepresented Populations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C264', 'Clerk Messenger Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C08', 'Water Engineering Assistant Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D318', 'Deputy Director Of Labor Relations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W304', 'Workforce Development Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C472', 'Confidential Adminstrative Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('N244', 'Network Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A47', 'Information Systems Auditor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I639', 'It Specialist, Senior');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G670', 'Geographic Information Systems Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P524', 'Probation Officer 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7L11', 'Photographic Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S478', 'Special Projects Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C366', 'Communications Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D56', 'Title Registration Aide 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A05', 'Labor Crew Sub-Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D35', 'Urban Gardening Greening Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S298', 'Senior Associate For Finance, Policy And Data');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C088', 'Central Office Messenger Ii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C261', 'Clerk Messenger Sup');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J33', 'Senior Emergency Communications Dispatcher');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E26', 'Revenue Investigation Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7Q73', 'Institutional Maintenance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G668', 'Geographic Information Systems (Gis)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D575', 'District Office Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7L03', 'Office Equipment Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C132', 'Chief Operating Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I434', 'Infrastructure Architect');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D356', 'Deputy Fire Commissioner For Management');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6H62', 'L&I Code Administrator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P543', 'Program Coordinator Workforce & Family Supports');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A40', 'Street Repair Crew Chief I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C427', 'Compliance Investigator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F09', 'Drug And Alcohol Abuse Program Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C809', 'Custodial Worker 1 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E800', 'Executive Secretary');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('J203', 'Job Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B43', 'Interceptor Services Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E18', 'Bridge Crane Operator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5E03', 'Suicide & Crisis Intervention Counselor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S242', 'Sergeant-At-Arms');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A43', 'Audit Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E58', 'Reservoirs Maintenance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D764', 'Director of Youth Strategies');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B14', 'Emergency Water Distribution Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D473', 'Digital Recording Technician 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D406', 'Deputy Director Of Pre-K');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D677', 'Dir\. of Racial Equity Storytelling and Comm Impact');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H84', 'Labor Engagement Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5C31', 'Human Relations Representative 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E76', 'Programmer Analyst 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7Q71', 'Correctional Industries Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A107', 'Accounting Technician 1 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C449', 'Confidential Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A528', 'Assistant To The Executive Director Of Pensions');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I663', 'IT Data Warehouse Administrator 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C093', 'Chair, Social Services Law Group');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I471', 'Information Software Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M077', 'Maintenance Mechanic 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1D54', 'Network Support Associate');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S288', 'Senior Systems Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4B15', 'Resident Care Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A18', 'Vector Control Worker 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7D40', 'Custodial Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A043', 'Administrative Assistant 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('8B14', 'Food Program Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S305', 'Senior Landscape Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F422', 'Fiscal Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E41', 'Election/Fraud Field Investigator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B10', 'Assistant Revenue Collection Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M087', 'Maintenance Mechanic 1 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N07', 'Horticulture Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A439', 'Asst To The Cao - Clerical Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1A17', 'Clerk Stenographer 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K48', 'Traffic Signal Supervisor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N54', 'Urban Park Ranger 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E32', 'Minority/Disadvantaged Business Enterprise Specialist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M045', 'Maintenance Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D505', 'Director Of Finance & Compliance');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D830', 'Outreach Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O815', 'Outreach Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C738', 'Creative Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K37', 'Audio-Visual Technician Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C830', 'Continuum Of Care Youth System Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A086', 'Adm Technician Iii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A442', 'Assistant To The Chief Admin Ofc');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C387', 'Community Engagement Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L31', 'Administrative Specialist 1-Non-Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B11', 'Water Main Equipment Mechanic');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D415', 'Deputy Sergeant-At Arms');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H40', 'Pension Counselor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2M88', 'Prosecution Assistant 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J74', 'Electronic Voting Machine Tech Grp Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C795', 'Custodial Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D59', 'Title Registration Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P127', 'Personnel Technician 2 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7P11', 'Upholsterer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7M26', 'Printing Services Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J58', '3-1-1 Contact Center Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F360', 'First Deputy City Controller');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J20', 'Interpreter');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H41', 'Plasterer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E75', 'Programmer Analyst 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7M08', 'Office Machinery Equipment Operator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B22', 'Payroll Examiner 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B28', 'Payroll And Investigations Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B42', 'Trial Services Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P861', 'Public Engagement Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D46', 'Crossing Guard District Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L12', 'Administrative Trainee 1 - Non-Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D061', 'Data & File Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P123', 'Personnel Technician 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D16', 'Public Safety Traffic Enforcement Supv');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D495', 'Director Of Human Resources');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A108', 'Accounting Technician 2 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4B04', 'Senior Medical Assistant/EHR Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B50', 'Environmental Restoration Crew Chief 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P523', 'Probation Officer 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A090', 'Accounting Tech Iii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I494', 'Interpreter Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('8B09', 'Corr Food & Maintenance Contract Supv');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N52', 'Park Manager 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B410', 'Board Of View Member');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7G05', 'Bridge Maintenance/Inspection Worker Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C740', 'Crew Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7J76', 'Voting Machine Service Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3G36', 'Pharmaceutical Technician Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E312', 'Enhanced Services Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F382', 'First Deputy Litigations Reg Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G663', 'Grant Compliance Monitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('Z002', 'Zoning/Constituent Services Rep');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M132', 'Manager, Work Ready & Workforce Operations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7M09', 'Office Machinery Equipment Operator 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('V380', 'Vocational School Intern');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T071', 'Technical Support Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P493', 'Procurement Technician 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C484', 'Coordinator Black Male Engagement');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I645', 'It Systems Associate Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D561', 'Director Of Operations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R400', 'Register Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2J51', 'Utility Public Affairs Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H916', 'Human Resources Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H68', 'Employee and Labor Relations Program Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M034', 'Mailroom Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E07', 'Claims Adjuster 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K34', 'Communications/Audio Visual Systems Crew Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A43', 'Forensic Technician Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C048', 'Case Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I664', 'IT Platform Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P832', 'Psychologist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F476', 'FJD Armed Probation Officer Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E802', 'Executive Secretary 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D50', 'Airport Operations Agent');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L136', 'Lead Muralist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B108', 'Benefits Community Liaison');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C421', 'Community Engagment Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F356', 'First Deputy Chief Diversity And Inclusion Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P559', 'Program Services Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S702', 'Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H41', 'Pension Counselor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H28', 'Safety Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H13', 'Environmental Scientist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B50', 'Tax Analyst 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('N352', 'Network Systems Coordinator Iii');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G683', 'FJD-Guardianship Compliance Investigator II');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E775', 'Executive Hearing Examiner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C314', 'Clip Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D23', 'Security Officer 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H42', 'Pension Counseling Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S723', 'Supervisor Of Marriage Records');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H62', 'Senior EEO Compliance Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3G33', 'Senior Science Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7B34', 'Inlet Cleaning Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D58', 'Title Registration Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E778', 'Executive Office Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('Y419', 'Youth Strategies Academic and Partnership Mgr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I395', 'Information Technology Coord');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O112', 'Office Services Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C467', 'Contracts And Data Monitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('J275', 'Junior Business Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L036', 'Language Access and Engagement Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D479', 'Deputy Services Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K04', 'Electrical Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('V323', 'Vacant Lot Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A29', 'Abatement Services Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H69', 'Labor Administrative Services Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C336', 'Commercial Painter Foreman');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T255', 'Tipstaff Iii (General)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D737', 'Director Of Community And Economic Development');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F359', 'First Deputy Chief Of Staff');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T581', 'Transportation Director Of Operations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H87', 'Labor and Wage Compliance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D24', 'Library Security Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E803', 'Executive Secretary 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E43', 'Election/Fraud Field Investigator Supvr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H45', 'Pension Counselor 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6G05', 'Housing & Fire Inspection Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P340', 'Population Tracking Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C085', 'Central Legal Staff Attorney I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L07', 'Administrative Trainee 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G656', 'Graphic Design And Art Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7Q30', 'Prison Electronic Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2M78', 'Trial Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P933', 'Public Relations Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I491', 'Interpreter 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C260', 'Clerk Messenger I');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T453', 'Trades Helper');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D547', 'Director Of Legal Services');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F438', 'FJD-Deputy Chief Information Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A598', 'Assistant Director Of Communications');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E675', 'Executive Administrative Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H27', 'Employee Disability Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H77', 'Occupational Safety Administrator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H913', 'Human Resources Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I485', 'Innovation Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I670', 'IT Coordinator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I665', 'IT Progam Manager 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R562', 'Research Associate');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('N356', 'Network Systems Coordinator 5');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E51', 'Senior Claims Adjuster');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('Z001', 'Zoning & Community Development Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D526', 'Dir Of Criminal Operations And Crisis Mgmt');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I557', 'Investigations Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P536', 'Procurement Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E37', 'Stationary Engineer Group Leader-2018');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F300', 'Finance Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2M91', 'Prosecution Assistant 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E706', 'Executive Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T082', 'Technical Assistance And Capacity Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I260', 'Imaging It Support Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P410', 'Pretrial Services Support Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I492', 'Interpreter 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7G22', 'Bridge Safety Inspection Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2J46', 'Special Events Production Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A537', 'Assistant Digital Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H922', 'HR Compensation and Benefits Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C180', 'City Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P494', 'Procurement Technician 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P383', 'Performance Management Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H27', 'Inmate Computer Based Education Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N76', 'Recreation Grounds Maintenance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E287', 'Emergency Management Coordinator 6');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B107', 'Benefits Access Unit Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D397', 'Deputy Policy Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F33', 'Utility Rate Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S484', 'Special Assistant To The Revenue Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C414', 'Community Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L114', 'Law Librarian');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7G08', 'Bridge Maintenance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P620', 'Project/Website Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C456', 'Contracts Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G662', 'Grant Compliance Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L185', 'Legal Counsel');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S820', 'Senior Human Resources Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3F06', 'Surveyor 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P495', 'Procurement Technician 5');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S197', 'Senior Staff Advisor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F424', 'Fiscal Technician 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C215', 'Claims Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2M90', 'Prosecution Assistant Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E677', 'Executive Administrator To The Register Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L263', 'Legislative Policy Advisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9E03', 'Museum Registrar And Collection Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('V340', 'Veterans Affairs Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I533', 'Inventory Control Manager - Clip');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A50', 'Medicolegal Death Investigator Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E33', 'Minority Disadvantaged Business Enterprise Specialist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C22', 'Criminal Investigative Research Lead Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B12', 'Electrical Engineer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7P25', 'Traffic Sign Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('N362', 'Network Systems Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E07', 'Procurement Specification Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E14', 'Procurement Techician Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9G05', 'Graphic Design Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2J04', 'Public Information Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P571', 'Program Evaluator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H070', 'HMIS Content and Configuration Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T582', 'Transportation Strategic Planning Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F440', 'FJD-Information Security Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7K35', 'Communications Systems Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1F22', 'Mail Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C110', 'Chairman Of The Board Of Rev Of Taxes');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T072', 'Technology Coordinator/Trainer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D343', 'Deputy Director Of Legislative And Community Affairs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D296', 'Deputy Director Of Lgbt Affairs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P530', 'Process Monitor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D028', 'Database Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E750', 'Exec Dir Housing & Community Dev');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T079', 'Technical Writer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D510', 'Director Of Administration & Management');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7N55', 'Urban Park Range Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A49', 'Highway Operations Assistant Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D614', 'Director of Policy and Communications');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5C43', 'Clean Block Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A054', 'Admin Asst To Regis Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A362', 'Asset Management Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D164', 'Deputy Chief Diversity Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7C55', 'Training Center Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4C07', 'Emergency Medical Services Training Coor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P944', '911 Public Safety Technical Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C165', 'Chief Diversity, Equity and Inclusion Officer-FJD');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6J44', 'Chief Fire Equipment Dispatcher');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O104', 'Oit Business Intelligence Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A106', 'Adabas Natural Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S259', 'Senior Program Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A34', 'Payroll Assistant Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7G15', 'Bridge Maintenance Superintendent');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F480', 'FJD Armed Probation Officer IV');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C15', 'Police Identification Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E42', 'Housing and Community Development Monitoring Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S294', 'Senior Network Systems Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A255', 'Applications Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6D27', 'Facilities Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P569', 'Programmer Analyst 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C402', 'Communications & Creative Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O084', 'Office Of Inspector General Administrative Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O545', 'Operations Specialist Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C150', 'Investigator 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H73', 'Labor Administrative Services Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C175', 'Child Care Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S790', 'Systems Administrator - Wintel');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4E17', 'Public Health Dental Hygiene Practitioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E04', 'Information Management Analyst 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C41', 'Health And Human Services Program Budget Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7L16', 'Video Production Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S256', 'Senior Business Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I448', 'Intake Supervisor 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D591', 'Director Of Zoning/Community Relations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P934', 'Public Relations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C06', 'Budget Officer 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D297', 'Deputy Director-Administration');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W163', 'Web And Sql Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B600', 'Budget Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2M57', 'Public Integrity Compliance Services Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5G26', 'Health Education Program Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5H37', 'Correctional Classification Movement And Registration Dir');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D27', 'Personal Property Evaluation Supv');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A27', 'Cost Accountant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3D01', 'Architectural Projects Trainee');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4N07', 'Medical Specialist (Hourly)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F31', 'Assistant Fleet Manager For Operations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A48', 'Forensic Services Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D16', 'Recreation Programming Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A50', 'Highway Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2D23', 'Real Estate Operations Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S194', 'Senior Gis Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L093', 'Law Clerk 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E772', 'Executive Director of the Mayor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O076', 'Obiee Business Analyst/Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F336', 'Financial Applications It Support Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5B50', 'Placement Program Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I497', 'Interim Chief Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P06', 'Airport Properties Specialist_3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H12', 'Environmental Scientist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S416', 'Software Configuration Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A48', 'Information Systems Audit Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E15', 'Web Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B58', 'Materials Testing Laboratory Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D738', 'Director Of Research And Communications');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D734', 'Director Of Black Male Achievement');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H28', 'Staff Scientist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S202', 'Senior Accountant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F48', 'Fleet Materials Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A075', 'Administrative Services Director For Reg Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D622', 'Director of Programs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A722', 'Assistant Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M121', 'Manager Of Operations & Nt Systems');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S320', 'Senior Human Capital Management Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L259', 'Legislative Counsel');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E820', 'Expenditure Compliance Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7P12', 'Upholsterer Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A50', 'Older Adult Center Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S802', 'Systems Analyst 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7F47', 'Fleet Quality Assurance Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C28', 'Law Enforcement Analyst Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4J43', 'Environmental Health Program Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5G27', 'Hiv Program Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S264', 'Senior Application Developer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S300', 'Sheriff');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A27', 'Sanitation Collections Assistant Admin');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D046', 'Data Quality Assurance Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A22', 'Accounting Verification And Procedures Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S318', 'Senior Systems Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S496', 'Sql Server Development Database Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F30', 'Performance Management Project Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E20', 'Geographic Info Systems Specialist 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F481', 'FJD Armed Probation Officer V');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M200', 'Mayor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4N09', 'Medical Services Director (Hourly)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9E16', 'Waterworks Interpretative Cntr Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E58', 'Scientific Applications Sys Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P05', 'Airports Properties Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A092', 'Administrative Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A007', 'Acis Systems Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A801', 'Asst Sergeant-At-Arms Messenger Maint');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H87', 'Data Analysis Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T635', 'Truancy/Dependency Master');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F75', 'Behavioral Health Clinical Consultant Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4B16', 'Resident Care Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2E35', 'Minority/Disadvantaged Business Enterprise Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E18', 'Web Development Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C470', 'Contract Admin And Program Eval Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H67', 'Building Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B32', 'Traffic District Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P594', 'Project Manager Co-Op It');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9D36', 'Park Stewardship Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C266', 'Clerk Messenger 2 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R360', 'Reentry Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D407', 'Deputy Of Human Resources Register Of Wills');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B57', 'Materials Testing Laboratory Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A112', 'Account Clerk - Dph');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C12', 'Budget Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3B03', 'Highway District Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S199', 'Senior Staff Advisor 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F62', 'Health/Human Services Policy Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('R353', 'Recycling Program Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H084', 'Senior Hearing Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E02', 'Plant Helper');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T073', 'Technology Development Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P400', 'President Of City Council');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P19', 'Airport Operations Superintendent');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M124', 'Manager Of Imaging Technology');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S302', 'Senior Communications Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E771', 'Executive Director Womens Commission');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H67', 'Human Resources Program Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C434', 'Computer Engineering Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3D06', 'Architectural Project Coordinator 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3F07', 'Chief Surveyor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('J175', 'Job Counselor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D775', 'Director of Training and Outreach');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H41', 'Forensic Laboratory Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S623', 'Streets Public Affairs Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C803', 'Custodial Worker - Driver');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A51', 'Older Adult Services Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D763', 'Director of Financial Inclusion');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I643', 'It Platform Administrator 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A68', 'Information Systems Audit Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H43', 'Pension Program Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2G16', 'Park His Pres & Fun Adm');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2J19', 'Cable Television  Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3F22', 'City Plans Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H53', 'Forensic Toxicology Laboratory Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F445', 'FJD-Legal Services Staff Attorney');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A12', 'Accounting Section Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D394', 'Deputy Commissioner For Training And Development');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A438', 'Asst To The Cao - Admin Secretary');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P081', 'Permanent Arbitrator in Divorce');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C136', 'Chief Education Advisor To The Mayor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A256', 'Application Platform Support Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T550', 'Training Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A39', 'Utility Enterprise Fund Accounting Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F067', 'Family Court Administrative Attorney');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P375', 'Pre-K Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D625', 'Director of Safety & Security');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D478', 'Development Associate');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D275', 'Deputy Controller');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P14', 'Airport Assistant Facilities Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C091', 'Chair Litigation Group');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D349', 'Deputy of Government Affairs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C155', 'Chief Service Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S443', 'Spec Asst To The City Controller');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S470', 'Special Services Assistant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6A54', 'Prosecution Detective Lieutenant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6B30', 'Fire Service Paramedic Infection Control Off');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A15', 'Accounting Information Systems Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E23', 'Geographic Info Systems Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H50', 'Benefits Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H29', 'Staff Scientist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5C35', 'Human Relations Deputy Director -  Compliance');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6C29', 'Law Enforcement Analyst Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B62', 'Administrative Librarian 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3D07', 'Architectural Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2F65', 'Sanitation Program Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2B41', 'Tax & Revenue Conferee Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2M80', 'Records Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A18', 'City Treasurer Accounting Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M098', 'Majority Deputy Whip');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O200', 'Older Youth Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L045', 'Labor and Employee Relations Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('T553', 'Training Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6H47', 'L&I Construction Services Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F395', 'First Deputy Director of Labor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C438', 'Compliance Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I671', 'IT Architect');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D542', 'Director Of Labor Standards');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D354', 'Deputy Inspector General');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C192', 'Chief Deputy Integrity Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E285', 'Emergency Management Coordinator 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F490', 'Fleet Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5C34', 'Human Relations Deputy Director-Community Relations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2L16', 'Administrative Specialist I - Confidential');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D678', 'Director of Basic Needs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D155', 'Deputy Budget Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I632', 'It Program Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F435', 'FJD Deputy Director of HR');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P41', 'Airport Sustainability Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('O547', 'Operations Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A011', 'Accountant');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C464', 'Constituent Services Aide');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D380', 'Deputy Executive Director of Operations');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E13', 'Information Systems Group Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3F17', 'Surveyor Bureau Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D405', 'Deputy Director Of Talent Management');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('B103', 'BAA Deputy Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F364', 'First Deputy City Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P22', 'Airport Public Affairs Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7E35', 'Stationary Engineer-2018');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C13', 'Budget Analyst Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A47', 'Correctional Social Work Counselor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('I653', 'It Security Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A534', 'Assistant District Attorney 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P122', 'Personnel Technician 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D573', 'Director Of Sustainability/ Special Advisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S328', 'Senior Director of Reentry Partnerships');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P462', 'Principal Database Admininstrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E708', 'Executive Director of the Board of City Commissioners');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C42', 'Health Fiscal Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A13', 'Accounting Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A50', 'Utility/Enterprise Financial Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D728', 'Director Of Community Affairs');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D175', 'Deputy Chief Probation Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C06', 'Capital Projects Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2M79', 'Water Operations Administration Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P062', 'Payroll Representative');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C31', 'Airport Engineering Assistant Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D760', 'Director of Operations Community Schools');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P126', 'Personnel Technician 1 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D748', 'Director Of Web And Application Services');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2P13', 'Airports Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A109', 'Administrative Technician 1 Tf');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P090', 'Permit Services Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C242', 'Clerical Supervisor 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('H911', 'Human Resources Executive Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H04', 'Maintenance Mechanic');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D474', 'Digital Inclusion Program Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H49', 'Forensic Scientist 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L268', 'Legistar System Admin');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A360', 'Asset Management Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C15', 'Budget Bureau Assistant Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4C60', 'Health Center Nursing Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C26', 'Water Planning & Environmental Services Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3E17', 'Deputy Planning Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C49', 'Streets Chief Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1E36', 'Computing Systems Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L022', 'Labor Relations Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D468', 'Deputy Of Probate Services');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C005', 'Cable Television Support Technician');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P411', 'Pretrial Services Operations Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C700', 'Court Order Process Clerk');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7H73', 'Facilities Management Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C27', 'Chief Water Transport Oper Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2A14', 'Accounting Assistant Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D158', 'Deputy Chief of Performance Management & Technology');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A077', 'Administrative Assistant And Scheduler');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W041', 'Senior Wage Compliance Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C33', 'Airport Facilities Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5A61', 'Health Service Social Worker 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D408', 'Deputy Planning Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E249', 'Employee and Labor Relations Specialist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2H15', 'Hiring Services Assistant 2');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('Y421', 'Youth Strategies Operations Mgr');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A511', 'Assistant Deputy Commissioner Financial Planning');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C460', 'Controller');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C198', 'Chief Diversity And Inclusion Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C196', 'Chief Office Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C22', 'Air Management Services Program Dir');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('2C16', 'Operating Budget Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('G682', 'Guardianship Investigator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D342', 'Deputy Director Delaware Valley Intelligence Center');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P564', 'Program Services Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('7A72', 'Hostler Group Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D190', 'Deputy Chief Technology Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S220', 'Senior IT Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('6E15', 'Traffic Investigator 1');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('1B64', 'Voter Registration Records Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F434', 'Fjd Executive Director Of Information Technology');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C188', 'City Council Receptionist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D161', 'Deputy Chief Investment Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4P02', 'Dentist 2 Half-Time');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C10', 'Licenses and Inspections Chief Code Engineer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C122', 'Chief Cultural Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C582', 'Court Administrative Officer 2 (U)');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A651', 'Assistant Unit Chief');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('E010', 'Early Learning Policy Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('W040', 'Wage Compliance Supervisor');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F392', 'First Deputy Revenue Commissioner');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('P070', 'Parking Enforcement Quality Assurance Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('A114', 'Adjudication Legal Analyst');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('F069', 'Family Court Representative III');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('S721', 'Supervisor Of Research Department');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L042', 'Labor Relations Training Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M096', 'Majority Whip');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C121', 'Chief Counsel To The Revenue Department');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C400', 'Community Resource Coordinator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3C09', 'Water Engineering Manager');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('9B23', 'Library Admin For Blind & Handicapped Se');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F31', 'Behavioral/Public Health Administrator');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('L243', 'Legal Unit Supervisor 3');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('4A36', 'Pharmaceutical Services Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('M095', 'Majority Leader');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C181', 'City Commissioner Chairperson');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('N354', 'Network Systems Coordinator 4');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('5F59', 'Behavioral Health Research And Information Director');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('3H70', 'Clinical Lab Scientist');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D751', 'Director of Maternal Child and Family Health');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C204', 'Chief Network Operations Officer');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('C208', 'Chief of Performance Management and Technology');
+
+INSERT INTO JOB_TITLES (JOB_CODE, TITLE) 
+VALUES ('D228', 'Deputy Comm Of Operations/Deputy Chief Of Staff');
+
