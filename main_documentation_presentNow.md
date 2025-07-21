@@ -35,7 +35,7 @@
     - [Consulta 4: Conteo de empleados por categoría y departamento con salario base superior a un umbral (Con Índices)](#consulta-4-conteo-de-empleados-por-categoría-y-departamento-con-salario-base-superior-a-un-umbral-con-índices)
   - [Análisis de Resultados de Rendimiento](#análisis-de-resultados-de-rendimiento)
 - [Conclusión](#conclusión)
-- [Referencias Biográficas y Contexto Histórico](#referencias-biográficas-y-contexto-histórico)
+- [Referencias Biográficas ](#Referencias)
   - [Edgar F. Codd: El Padre del Modelo Relacional](#edgar-f-codd-el-padre-del-modelo-relacional)
   - [Los Creadores de SQL: Chamberlin y Boyce](#los-creadores-de-sql-chamberlin-y-boyce)
   - [Los Fundadores de Oracle: Ellison, Miner y Oates](#los-fundadores-de-oracle-ellison-miner-y-oates)
