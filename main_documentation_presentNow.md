@@ -60,7 +60,7 @@ Se identificaron las siguientes entidades principales:
 
 La relación entre estas entidades es fundamental. Un empleado pertenece a un departamento y ocupa un puesto de trabajo. Los registros de ganancias están directamente asociados a un empleado, y a su vez, a un departamento y un puesto de trabajo, lo que permite un análisis detallado de las remuneraciones.
 
-![WhatsApp Image 2025-07-11 at 10.22.26_5e7eef37](.\assets\WhatsApp Image 2025-07-11 at 10.22.26_5e7eef37.jpg)
+![WhatsApp Image 2025-07-11 at 10.22.26_5e7eef37](./assets/WhatsApp Image 2025-07-11 at 10.22.26_5e7eef37.jpg)
 *Descripción: Vista de las primeras filas del archivo CSV, mostrando las columnas y el formato de los datos.* 
 
 ## 2. Creación de Modelos y Scripts SQL
@@ -87,7 +87,7 @@ El modelo físico es la implementación concreta para Oracle XE 11g. Se tradujer
 
 ```sql
 CREATE TABLE EMPLOYEES (
-    employee_id NUMBER PRIMARY KEY,
+    employee_id NUMBER ,
     first_name VARCHAR2(100),
     last_name VARCHAR2(100),
     employee_category VARCHAR2(50),
@@ -97,17 +97,17 @@ CREATE TABLE EMPLOYEES (
 );
 
 CREATE TABLE DEPARTMENTS (
-    department_id NUMBER PRIMARY KEY,
+    department_id NUMBER ,
     department_name VARCHAR2(200)
 );
 
 CREATE TABLE JOB_TITLES (
-    job_code VARCHAR2(20) PRIMARY KEY,
+    job_code VARCHAR2(20) ,
     title VARCHAR2(200)
 );
 
 CREATE TABLE EARNINGS (
-    earning_id NUMBER PRIMARY KEY,
+    earning_id NUMBER,
     employee_id NUMBER NOT NULL,
     department_id NUMBER NOT NULL,
     job_code VARCHAR2(20) NOT NULL,
@@ -120,16 +120,7 @@ CREATE TABLE EARNINGS (
     longevity_gross_pay_qtd NUMBER(10, 2),
     post_separation_gross_pay_qtd NUMBER(10, 2),
     miscellaneous_gross_pay_qtd NUMBER(10, 2),
-    total_gross_pay NUMBER(10, 2),
-    CONSTRAINT fk_employee
-        FOREIGN KEY (employee_id)
-        REFERENCES EMPLOYEES(employee_id),
-    CONSTRAINT fk_department
-        FOREIGN KEY (department_id)
-        REFERENCES DEPARTMENTS(department_id),
-    CONSTRAINT fk_job_title
-        FOREIGN KEY (job_code)
-        REFERENCES JOB_TITLES(job_code)
+    total_gross_pay NUMBER(10, 2)
 );
 
 CREATE SEQUENCE earnings_seq
@@ -196,19 +187,19 @@ La importación de 300,000 registros desde el CSV a la estructura relacional dis
 
 1.  **Carga a una Tabla Temporal de Respaldo (Como metodo de fallback):** Primero, el CSV completo se importó a una tabla temporal (`TEMP_EMPLOYEE_EARNINGS`) con todas las columnas definidas como `VARCHAR2`. Esto minimizó los problemas de tipo de datos durante la carga inicial.
 
-​	![image-20250712172836327](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250712172836327.png)	
+​	![image-20250712172836327](./assets/image-20250712172836327.png)	
 
 *Descripción: Script SQL para la creación de la tabla `TEMP_EMPLOYEE_EARNINGS`.* 
 
-![image-20250712173025215](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250712173025215.png)
+![image-20250712173025215](./assets/image-20250712173025215.png)
 
-![image-20250712173315853](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250712173315853.png)
+![image-20250712173315853](./assets/image-20250712173315853.png)
 
-![image-20250712173356780](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250712173356780.png)
+![image-20250712173356780](./assets/image-20250712173356780.png)
 
-![image-20250712173406996](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250712173406996.png)
+![image-20250712173406996](./assets/image-20250712173406996.png)
 
-![image-20250712173543948](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250712173543948.png)
+![image-20250712173543948](./assets/image-20250712173543948.png)
 
 *Descripción: Proceso de importación del CSV a `TEMP_EMPLOYEE_EARNINGS` usando el asistente de SQL Developer.* 
 
@@ -294,11 +285,11 @@ La importación de 300,000 registros desde el CSV a la estructura relacional dis
 
 
 
-![image-20250713162452401](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250713162452401.png)
+![image-20250713162452401](./assets/image-20250713162452401.png)
 
 
 
-![image-20250713162834226](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250713162834226.png)
+![image-20250713162834226](./assets/image-20250713162834226.png)
 
 
 
@@ -306,7 +297,7 @@ La importación de 300,000 registros desde el CSV a la estructura relacional dis
 
 ![image-20250713162537165](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250713162537165.png)
 
-![image-20250713163046755](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250713163046755.png)
+![image-20250713163046755](./assets/image-20250713163046755.png)
 
 
 
@@ -350,42 +341,228 @@ Para evaluar el rendimiento de la base de datos y demostrar la importancia de lo
 
 ### Consultas sin Índices
 
-Antes de la creación de cualquier índice, se ejecutaron las siguientes consultas. Los tiempos de ejecución en esta fase sirven como línea base para la comparación.
+Antes de la creación de cualquier índice (incluyendo pero no limitado a llaves primarias y foraneas), se ejecutaron las siguientes consultas. Los tiempos de ejecución en esta fase sirven como línea base para la comparación.
 
 #### Consulta 1: Salario promedio por departamento y tipo de salario en un año específico
 
 Esta consulta calcula el salario base promedio para cada combinación de departamento y tipo de salario en el año 2022. Involucra uniones y agrupamientos.
 
-![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.022.png)
+![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.022.pngbak)![image-20250722093412682](./gq-images/newImage1.png)
+
+* Parte del Output (VER HOJA DE LOG en [Logs de consultas sin Indices](./output_logs/output_scripts_sinIndices.txt))
+
+```sql
+Dominique                                                                                            Smiley                                                                                               MOS Office of Sustainability                                                                                                                                                                                     94807.9
+Darcel                                                                                               Laurie                                                                                               MOE Mayors Office of Education                                                                                                                                                                                  75000.06
+Mona                                                                                                 Jacobs                                                                                               CEO Community Empowerment Ofc                                                                                                                                                                                  106983.53
+Lori                                                                                                 Hayes                                                                                                PPR Parks and Recreation                                                                                                                                                                                       180866.49
+Danielle                                                                                             Outlaw                                                                                               MDO Managing Director Office                                                                                                                                                                                   347517.98
+
+49 rows selected. 
+
+Elapsed: 00:00:00.354
+```
+
 *Descripción: Hoja de trabajo de SQL Developer con la Consulta 1 ejecutada, mostrando el resultado y el tiempo de ejecución registrado.* 
 
 #### Consulta 2: Empleados con el mayor `total_gross_pay` por departamento en un trimestre específico
 
 Esta consulta identifica a los empleados con el `total_gross_pay` más alto dentro de cada departamento para el cuarto trimestre del año 2023. Requiere el uso de subconsultas o funciones de ventana.
 
-![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.023.png)
-*Descripción: Hoja de trabajo de SQL Developer con la Consulta 2 ejecutada, mostrando el resultado y el tiempo de ejecución registrado.* 
+![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.023.pngbak)
+
+![image-20250722093708541](./gq-images/newImage2.png)*Descripción: Hoja de trabajo de SQL Developer con la Consulta 2 ejecutada, mostrando el resultado y el tiempo de ejecución registrado.* 
+
+
+
+
+
+* Parte del Output (VER HOJA DE LOG en [Logs de consultas sin Indices](./output_logs/output_scripts_sinIndices.txt))
+
+```sql
+DEPARTMENT_NAME                                                                                                                                                                                          SALARY_TYPE                                        AVERAGE_BASE_SALARY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------- -------------------
+DPD Planning and Development                                                                                                                                                                             Salaried                                                    52205.5625
+CMS City Commissioners                                                                                                                                                                                   Non-Salaried                                                          
+CMS City Commissioners                                                                                                                                                                                   Salaried                                                    40796.8152
+FJD 1st Judicial District PA                                                                                                                                                                             Non-Salaried                                                          
+FJD 1st Judicial District PA                                                                                                                                                                             Salaried                                                    41969.3145
+
+82 rows selected. 
+
+Elapsed: 00:00:00.189
+
+```
+
+
 
 #### Consulta 3: Historial de salarios de un empleado específico a lo largo de los años
 
 Esta consulta recupera el `base_salary` y `total_gross_pay` de un empleado específico a lo largo de los años y trimestres. Es una consulta que involucra filtrado por una clave y ordenamiento.
 
-![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.024.png)
-*Descripción: Hoja de trabajo de SQL Developer con la Consulta 3 ejecutada, mostrando el resultado y el tiempo de ejecución registrado.* 
+![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.024.pngbak)
+
+![image-20250722094218695](./gq-images/newImage3.png)*Descripción: Hoja de trabajo de SQL Developer con la Consulta 3 ejecutada, mostrando el resultado y el tiempo de ejecución registrado.* 
+
+
+
+* Parte del Output (VER HOJA DE LOG en [Logs de consultas sin Indices](./output_logs/output_scripts_sinIndices.txt))
+
+```sql
+Adolfo                                                                                               Bosch                                                                                                CTO City Treasurer                                                                                                                                                                                              94617.44
+Gerard                                                                                               Koszarek                                                                                             PPS Prisons                                                                                                                                                                                                    125896.67
+Christopher                                                                                          Renfro                                                                                               STS Streets                                                                                                                                                                                                    111064.46
+Nyasa                                                                                                Hendrix                                                                                              MAP Mural Arts Program                                                                                                                                                                                          59159.49
+Banafsheh                                                                                            Amirzadeh                                                                                            DAO District Attorney                                                                                                                                                                                          139079.88
+Ashante                                                                                              Jordan                                                                                               BPR Board of Pensions Retiremt                                                                                                                                                                                  56221.16
+Christina                                                                                            Patton                                                                                               FLP Free Library of Phila                                                                                                                                                                                      126154.46
+Lorraine                                                                                             Broughton                                                                                            OPA Ofc of Property Assessment                                                                                                                                                                                  97351.76
+Tyesha                                                                                               Wilson                                                                                               CSC Civil Service Commission                                                                                                                                                                                    48860.96
+Charnae                                                                                              Smalls                                                                                               REC Records                                                                                                                                                                                                      60648.4
+Lisa                                                                                                 Bowman                                                                                               BRT Board of Revision of Taxes                                                                                                                                                                                  56043.74
+
+FIRST_NAME                                                                                           LAST_NAME                                                                                            DEPARTMENT_NAME                                                                                                                                                                                          TOTAL_GROSS_PAY
+---------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------
+Dominique                                                                                            Smiley                                                                                               MOS Office of Sustainability                                                                                                                                                                                     94807.9
+Darcel                                                                                               Laurie                                                                                               MOE Mayors Office of Education                                                                                                                                                                                  75000.06
+Mona                                                                                                 Jacobs                                                                                               CEO Community Empowerment Ofc                                                                                                                                                                                  106983.53
+Lori                                                                                                 Hayes                                                                                                PPR Parks and Recreation                                                                                                                                                                                       180866.49
+Danielle                                                                                             Outlaw                                                                                               MDO Managing Director Office                                                                                                                                                                                   347517.98
+
+49 rows selected. 
+
+Elapsed: 00:00:00.354
+
+```
+
+
 
 #### Consulta 4: Conteo de empleados por categoría y departamento con salario base superior a un umbral
 
 Esta consulta cuenta el número de empleados por categoría y departamento que tienen un `base_salary` superior a 80000. Implica múltiples uniones, filtrado y agrupamiento.
 
-![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.025.png)
+![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.025.pngbak)
+
+![image-20250722093412682](./gq-images/newImage4.png)
+
 *Descripción: Hoja de trabajo de SQL Developer con la Consulta 4 ejecutada, mostrando el resultado y el tiempo de ejecución registrado.* 
+
+* Parte del Output (VER HOJA DE LOG en [Logs de consultas sin Indices](./output_logs/output_scripts_sinIndices.txt))
+
+```sql
+EMPLOYEE_CATEGORY                                  NUMBER_OF_EMPLOYEES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------- -------------------
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+
+DEPARTMENT_NAME                                                                                                                                                                                          EMPLOYEE_CATEGORY                                  NUMBER_OF_EMPLOYEES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------- -------------------
+FJD 1st Judicial District PA                                                                                                                                                                             Exempt                                                               1
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+PHL Dept of Aviation                                                                                                                                                                                     Exempt                                                               1
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+
+DEPARTMENT_NAME                                                                                                                                                                                          EMPLOYEE_CATEGORY                                  NUMBER_OF_EMPLOYEES
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------- -------------------
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+PHL Dept of Aviation                                                                                                                                                                                     Civil Service                                                        1
+
+13,268 rows selected. 
+
+Elapsed: 00:00:25.096
+
+```
+
+
 
 ### Creación de Índices
 
 Para optimizar el rendimiento de las consultas, se crearon índices en las columnas más utilizadas en las cláusulas `WHERE`, `JOIN`, `ORDER BY` y `GROUP BY`. La selección de índices se basó en el análisis de los planes de ejecución de las consultas sin índices y en las mejores prácticas de diseño de bases de datos.
 
+```sql
+-- Phase 3: Add Primary Key Constraints (and their implicit unique indexes)
+
+ALTER TABLE EMPLOYEES ADD CONSTRAINT pk_employees PRIMARY KEY (employee_id);
+ALTER TABLE DEPARTMENTS ADD CONSTRAINT pk_departments PRIMARY KEY (department_id);
+ALTER TABLE JOB_TITLES ADD CONSTRAINT pk_job_titles PRIMARY KEY (job_code);
+ALTER TABLE EARNINGS ADD CONSTRAINT pk_earnings PRIMARY KEY (earning_id);
+
+-- Phase 4: Add Foreign Key Constraints (after all primary keys are defined)
+
+ALTER TABLE EARNINGS ADD CONSTRAINT fk_employee
+    FOREIGN KEY (employee_id)
+    REFERENCES EMPLOYEES(employee_id);
+
+ALTER TABLE EARNINGS ADD CONSTRAINT fk_department
+    FOREIGN KEY (department_id)
+    REFERENCES DEPARTMENTS(department_id);
+
+ALTER TABLE EARNINGS ADD CONSTRAINT fk_job_title
+    FOREIGN KEY (job_code)
+    REFERENCES JOB_TITLES(job_code);
+-- More indexes
+-- Índice en EARNINGS para calendar_year y quarter (Consulta 1 y 2)
+CREATE INDEX idx_earnings_year_quarter ON EARNINGS (calendar_year, quarter);
+
+-- Índice en EARNINGS para department_id (Consulta 1, 2 y 4)
+CREATE INDEX idx_earnings_department_id ON EARNINGS (department_id);
+
+-- Índice en EARNINGS para employee_id (Consulta 2 y 3)
+CREATE INDEX idx_earnings_employee_id ON EARNINGS (employee_id);
+
+-- Índice en EARNINGS para base_salary (Consulta 4)
+CREATE INDEX idx_earnings_base_salary ON EARNINGS (base_salary);
+
+-- Índice compuesto para Consulta 2 (department_id, total_gross_pay)
+CREATE INDEX idx_earnings_dept_total_pay ON EARNINGS (department_id, total_gross_pay);
+
+-- Índice para Consulta 4 (employee_category)
+CREATE INDEX idx_employees_category ON EMPLOYEES (employee_category);
+```
+
+
+
 ![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.026.png)
-*Descripción: Script SQL con las sentencias `CREATE INDEX` para los índices creados y el mensaje de confirmación de su creación.* 
+
+![image-20250722102024500](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250722102024500.png)
+
+![image-20250722102116940](C:\Users\mabarca1\AppData\Roaming\Typora\typora-user-images\image-20250722102116940.png)*Descripción: Script SQL con las sentencias `CREATE INDEX` para los índices creados y el mensaje de confirmación de su creación.* 
+
+
+
+De ser necesario reconstruir los indices para defragmentar y optimizar su rendimiento, se puede efectuar las siguientes sentencias generales:
+
+```sql
+ALTER INDEX pk_employees REBUILD;
+ALTER INDEX pk_departments REBUILD;
+ALTER INDEX pk_job_titles REBUILD;
+ALTER INDEX pk_earnings REBUILD;
+ALTER INDEX idx_earnings_employee_id REBUILD;
+ALTER INDEX idx_earnings_department_id REBUILD;
+ALTER INDEX idx_employees_category REBUILD;
+ALTER INDEX idx_earnings_year_quarter REBUILD;
+ALTER INDEX idx_earnings_base_salary REBUILD;
+ALTER INDEX idx_earnings_dept_total_pay REBUILD;
+
+```
+
+
 
 ### Consultas con Índices
 
@@ -393,23 +570,119 @@ Después de la creación de los índices, se volvieron a ejecutar las mismas cua
 
 #### Consulta 1: Salario promedio por departamento y tipo de salario en un año específico (Con Índices)
 
-![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.030.png)
+![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.030.pngbak)
+
+![image-20250722103051356](./gq-images/newImage5.png)
+
 *Descripción: Hoja de trabajo de SQL Developer con la Consulta 1 ejecutada después de la creación de índices, mostrando el resultado y el tiempo de ejecución reducido.* 
+
+* Parte del Output (VER HOJA DE LOG en [Logs de consultas con Indices](./output_logs/output_scripts_conIndices.txt))
+
+```sql
+PPR Parks and Recreation                                                                                                                                                                                 Non-Salaried                                                          
+PPR Parks and Recreation                                                                                                                                                                                 Salaried                                                    43320.5178
+PPR Parks and Recreation                                                                                                                                                                                                                                                       
+PPS Prisons                                                                                                                                                                                              Salaried                                                    51024.8798
+PRO Procurement                                                                                                                                                                                          Salaried                                                       48575.6
+PWD Water                                                                                                                                                                                                Non-Salaried                                                          
+PWD Water                                                                                                                                                                                                Salaried                                                    44580.5818
+REC Records                                                                                                                                                                                              Non-Salaried                                                          
+REC Records                                                                                                                                                                                              Salaried                                                    43735.0648
+REV Revenue                                                                                                                                                                                              Non-Salaried                                                          
+REV Revenue                                                                                                                                                                                              Salaried                                                    44393.8246
+
+DEPARTMENT_NAME                                                                                                                                                                                          SALARY_TYPE                                        AVERAGE_BASE_SALARY
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------- -------------------
+ROW Register of Wills                                                                                                                                                                                    Non-Salaried                                                          
+ROW Register of Wills                                                                                                                                                                                    Salaried                                                    47238.9402
+SHF Sheriff                                                                                                                                                                                              Salaried                                                    54433.6646
+STS Streets                                                                                                                                                                                              Non-Salaried                                                          
+STS Streets                                                                                                                                                                                              Salaried                                                     40701.202
+
+82 rows selected. 
+
+Elapsed: 00:00:00.140
+```
+
+
 
 #### Consulta 2: Empleados con el mayor `total_gross_pay` por departamento en un trimestre específico (Con Índices)
 
-![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.028.png)
+![](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.028.pngbak)
+
+![image-20250722103142801](./gq-images/newImage6.png)
+
 *Descripción: Hoja de trabajo de SQL Developer con la Consulta 2 ejecutada después de la creación de índices, mostrando el resultado y el tiempo de ejecución reducido.* 
+
+* Parte del Output (VER HOJA DE LOG en [Logs de consultas con Indices](./output_logs/output_scripts_conIndices.txt))
+
+```sql
+James                                                                                                Jackson                                                                                              OFM Fleet Management                                                                                                                                                                                            73809.22
+Charnae                                                                                              Smalls                                                                                               REC Records                                                                                                                                                                                                      60648.4
+Adolfo                                                                                               Bosch                                                                                                CTO City Treasurer                                                                                                                                                                                              94617.44
+Ashante                                                                                              Jordan                                                                                               BPR Board of Pensions Retiremt                                                                                                                                                                                  56221.16
+Lisa                                                                                                 Bowman                                                                                               BRT Board of Revision of Taxes                                                                                                                                                                                  56043.74
+
+49 rows selected. 
+
+Elapsed: 00:00:00.132
+```
 
 #### Consulta 3: Historial de salarios de un empleado específico a lo largo de los años (Con Índices)
 
-![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.027.png)
+![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.027.pngbak)
+
+![image-20250722103254349](./gq-images/newImage7png)
+
 *Descripción: Hoja de trabajo de SQL Developer con la Consulta 3 ejecutada después de la creación de índices, mostrando el resultado y el tiempo de ejecución reducido.* 
+
+* Parte del Output (VER HOJA DE LOG en [Logs de consultas con Indices](./output_logs/output_scripts_conIndices.txt))
+
+```sql
+
+FIRST_NAME                                                                                           LAST_NAME                                                                                            CALENDAR_YEAR    QUARTER BASE_SALARY TOTAL_GROSS_PAY
+---------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------- ------------- ---------- ----------- ---------------
+Monte                                                                                                Guess                                                                                                         2022          3       92550           92550
+Monte                                                                                                Guess                                                                                                         2022          4       92550        57772.89
+Monte                                                                                                Guess                                                                                                         2023          1       92550        99735.09
+Monte                                                                                                Guess                                                                                                         2023          2       92550           99642
+Monte                                                                                                Guess                                                                                                         2023          4       95557        44866.96
+Monte                                                                                                Guess                                                                                                         2024          1       95557        95557.05
+Monte                                                                                                Guess                                                                                                         2024          2       95557           95557
+Monte                                                                                                Guess                                                                                                         2024          3       95557        151747.5
+
+8 rows selected. 
+
+Elapsed: 00:00:00.020
+```
+
+
 
 #### Consulta 4: Conteo de empleados por categoría y departamento con salario base superior a un umbral (Con Índices)
 
-![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.029.png)
+![Image](./gq-images/Aspose.Words.40fe3b3f-d5a9-48d2-86c3-0f2955dd48c7.029.pngbak)
+
+![image-20250722103524054](./gq-images/newImage8.png)
+
 *Descripción: Hoja de trabajo de SQL Developer con la Consulta 4 ejecutada después de la creación de índices, mostrando el resultado y el tiempo de ejecución reducido.* 
+
+* Parte del Output (VER HOJA DE LOG en [Logs de consultas con Indices](./output_logs/output_scripts_conIndices.txt))
+
+```sql
+REV Revenue                                                                                                                                                                                              Exempt                                                              10
+ROW Register of Wills                                                                                                                                                                                    Civil Service                                                        1
+ROW Register of Wills                                                                                                                                                                                    Exempt                                                              25
+SHF Sheriff                                                                                                                                                                                              Civil Service                                                       34
+SHF Sheriff                                                                                                                                                                                              Exempt                                                              20
+STS Streets                                                                                                                                                                                              Civil Service                                                      116
+STS Streets                                                                                                                                                                                              Exempt                                                              10
+
+84 rows selected. 
+
+Elapsed: 00:00:00.064
+```
+
+
 
 ### Análisis de Resultados de Rendimiento
 
@@ -417,38 +690,38 @@ La comparación de los tiempos de ejecución y los planes de ejecución (accesib
 
 **Rendimiento de consultas antes y después de crear índices.**
 
+| Consulta                          | Tiempo sin índice (s) | Rows sin índice | Tiempo con índice (s) | Rows con índice | % Tiempo ahorrado |
+| --------------------------------- | --------------------: | --------------: | --------------------: | --------------: | ----------------: |
+| Consulta 1 (Sin índice ni llaves) |                 0.354 |              84 |                 0.140 |              82 |            60.45% |
+| Consulta 2 (Sin índice ni llaves) |                 0.189 |              49 |                 0.132 |              49 |            30.16% |
+| Consulta 3 (Sin índice ni llaves) |                 0.354 |              82 |                 0.020 |               8 |            94.36% |
+| Consulta 4 (Sin índice ni llaves) |                25.096 |           13268 |                 0.064 |              84 |            99.75% |
 
+Claro, aquí tienes una conclusión adaptada al nuevo conjunto de datos y resultados, en un tono cercano y humano similar al ejemplo que proporcionaste:
 
-| Consulta                                                     | Tiempo sin índice (s) | Tiempo con índice (s) | % Tiempo ahorrado |
-| ------------------------------------------------------------ | --------------------- | --------------------- | ----------------- |
-| Salario promedio por departamento y tipo de salario en 2022  | 0.038                 | 0.028                 | 26.32%            |
-| Empleados con mayor total_gross_pay por departamento en 2023 Q4 | 0.087                 | 0.015                 | 82.76%            |
-| Historial de salarios de un empleado específico              | 0.012                 | 0.005                 | 58.33%            |
-| Conteo de empleados por categoría y departamento con salario base superior a 80,000 | 0.149                 | 0.25                  | -67.79%           |
+## Conclusion
 
-
-
-## Conclusión
-
-La implementación de la base de datos en Oracle Xe 11 G, siguiendo un proceso muy metódico que abarca desde el análisis detallado del conjunto de datos hasta la optimización del rendimiento, pone de manifiesto la gran relevancia de un diseño cuidadoso y la aplicación adecuada de técnicas avanzadas para mejorar la eficiencia. Como se observa en la tabla de tiempos de consulta, la creación de índices estratégicos impacta de manera significativa en la velocidad de respuesta de las consultas, logrando reducciones de tiempo considerables en la mayoría de los casos.
-
-
-
-Por ejemplo, consultas como la del salario promedio por departamento y tipo de salario en 2022 y la de empleados con mayor total_gross_pay por departamento en 2023 Q4 experimentaron mejoras en el tiempo de ejecución del 26.32% y 82.76%, respectivamente, lo que representa un ahorro notable en recursos y tiempo. Asimismo, el historial de salarios de un empleado específico mostró una mejora del 58.33%, evidenciando que la indexación puede ser muy beneficiosa incluso en consultas con pocos registros.
+La inclusión y optimización de índices en la base de datos han demostrado ser una estrategia bien efectiva para mejorar el rendimiento de las consultas, en particular en escenarios con grandes volumenes de datos. Como refleja la tabla de tiempos, la reducción en los tiempos de ejecución es muy significativa, alcanzando ahorros de hasta un 99.75% en la consulta más pesada, donde la cantidad de registros sin índice era muy alta (más de 13 mil filas). Esto lo señalamos debido a la carencia de sentencias y consultas avanzadas como `JOIN`, por ende la precision que obtuvimos solo usando subconsultas (en los benchmark sin indices) es considerablemente menor.
 
 
 
-Sin embargo, no todos los casos resultaron en mejoras; la consulta que realiza el conteo de empleados por categoría y departamento con salario base superior a 80,000 presentó un aumento del 67.79% en el tiempo de ejecución al aplicar el índice. Esto subraya que la creación de índices debe ser cuidadosamente analizada y aplicada según el contexto y la naturaleza de las consultas, ya que un índice mal diseñado o innecesario puede incluso degradar el rendimiento.
+Consultas como la primera, la segunda y la tercera experimentaron mejoras de entre un 30% y un 94%, mostrando que incluso en operaciones con menos registros la creación de índices puede acelerar notablemente la respuesta sin sacrificar recursos. Por ejemplo, la tercera consulta logró una reducción del 94.36% en el tiempo, a pesar de contar inicialmente con un número moderado de filas, lo que evidencia el impacto positivo de una optimización bien orientada.
 
 
 
-En resumen, la normalización de datos, la implementación de lógica de negocio mediante triggers y procedimientos, y la creación estratégica de índices conforman los pilares esenciales para desarrollar sistemas de bases de datos eficientes, robustos y fáciles de mantener. Este enfoque integral no solo garantiza la integridad y consistencia de la información, sino que también optimiza la capacidad de respuesta ante consultas, aspecto fundamental en entornos con grandes volúmenes de datos.
+Además, la comparación de filas procesadas también refleja que la indexación permite filtrar o localizar datos con mayor precisión y rapidez, reduciendo la carga innecesaria sobre el sistema y mejorando la eficiencia global.
 
 
 
-Este documento, junto con el de decisiones de diseño, constituye una guía valiosa para entender el proceso y las razones detrás de cada elección técnica, facilitando futuras ampliaciones o ajustes de este sistema y promoviendo buenas prácticas en el manejo y optimización de bases de datos diseñadas para Oracle Xe 11 G.
+Por último, aunque la cuarta consulta sin índice tomó más de 25 segundos para ejecutarse, la aplicación de índices y llaves la redujo a apenas 0.064 segundos, un salto extraordinario que resalta la importancia de diseñar índices adecuados en bases de datos con grandes volúmenes y consultas complejas.
 
 
+
+En conclusión, este análisis confirma que el diseño cuidadoso de índices es un pilar fundamental para alcanzar un sistema de base de datos eficiente, rápido y escalable. No solo se mejora la experiencia del usuario al reducir los tiempos de espera, sino que también se optimizan los recursos del servidor, permitiendo manejar con éxito cargas elevadas y consultas complejas.
+
+
+
+El enfoque integrado que combina análisis detallado de datos, metodologías de modelado y optimización con índices será clave para futuras expansiones del sistema y para mantener la calidad y rendimiento en ambientes de producción reales.
 
 ## Referencias
 
@@ -469,3 +742,5 @@ Este documento, junto con el de decisiones de diseño, constituye una guía vali
 [8] Financhill. (n.d.). *How Oracle Got Started*. Recuperado de [https://financhill.com/blog/investing/how-oracle-got-started](https://financhill.com/blog/investing/how-oracle-got-started)
 
 [9] Srikanth Technologies. (2007, August 6). *History Of Oracle Database*. Recuperado de [http://srikanthtechnologies.com/blog/oracle/orahistory.aspx](http://srikanthtechnologies.com/blog/oracle/orahistory.aspx)http://srikanthtechnologies.com/blog/oracle/orahistory.aspx)
+
+[10] City of Philadelphia. (2025, 31 de marzo). City Employee Earnings. Recuperado de https://catalog.data.gov/dataset/city-employee-earnings

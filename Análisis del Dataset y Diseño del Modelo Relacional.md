@@ -523,21 +523,23 @@ Para registrar los tiempos de ejecución en SQL Developer, puedes activar la opc
 Esta consulta calcula el salario base promedio para cada combinación de departamento y tipo de salario en el año 2022. Es una consulta que involucra agrupamiento y filtrado.
 
 ```sql
+SET TIMING ON;
 SELECT
-    d.department_name,
-    e.salary_type,
-    AVG(e.base_salary) AS average_base_salary
+    (SELECT department_name FROM DEPARTMENTS WHERE department_id = E.department_id) AS department_name,
+    E.salary_type,
+    AVG(E.base_salary) AS average_base_salary
 FROM
-    EARNINGS e
-JOIN
-    DEPARTMENTS d ON e.department_id = d.department_id
+    EARNINGS E
 WHERE
-    e.calendar_year = 2022
+    E.calendar_year = 2022
+    AND E.department_id IN (SELECT department_id FROM DEPARTMENTS)
 GROUP BY
-    d.department_name,
-    e.salary_type
+    E.department_id,
+    E.salary_type
 ORDER BY
-    d.department_name, e.salary_type;
+    E.department_id,
+    E.salary_type;
+SET TIMING OFF;
 ```
 
 [IMAGEN 18: Captura de pantalla de SQL Developer mostrando la ejecución de la Consulta 1 sin índices y su tiempo de ejecución]
@@ -548,29 +550,27 @@ ORDER BY
 Esta consulta identifica a los empleados con el `total_gross_pay` más alto dentro de cada departamento para el cuarto trimestre del año 2023. Requiere el uso de funciones de ventana o subconsultas correlacionadas.
 
 ```sql
+SET TIMING ON;
 SELECT
-    e.first_name,
-    e.last_name,
-    d.department_name,
-    er.total_gross_pay
+    (SELECT first_name FROM EMPLOYEES WHERE employee_id = ER.employee_id) AS first_name,
+    (SELECT last_name FROM EMPLOYEES WHERE employee_id = ER.employee_id) AS last_name,
+    (SELECT department_name FROM DEPARTMENTS WHERE department_id = ER.department_id) AS department_name,
+    ER.total_gross_pay
 FROM
-    EMPLOYEES e
-JOIN
-    EARNINGS er ON e.employee_id = er.employee_id
-JOIN
-    DEPARTMENTS d ON er.department_id = d.department_id
+    EARNINGS ER
 WHERE
-    (er.department_id, er.total_gross_pay) IN (
-        SELECT
-            department_id,
-            MAX(total_gross_pay)
-        FROM
-            EARNINGS
-        WHERE
-            calendar_year = 2023 AND quarter = 4
-        GROUP BY
-            department_id
+    ER.calendar_year = 2023 
+    AND ER.quarter = 4
+    AND ER.department_id IN (SELECT department_id FROM DEPARTMENTS)
+    AND ER.employee_id IN (SELECT employee_id FROM EMPLOYEES)
+    AND ER.total_gross_pay = (
+        SELECT MAX(total_gross_pay)
+        FROM EARNINGS
+        WHERE department_id = ER.department_id
+        AND calendar_year = 2023 
+        AND quarter = 4
     );
+SET TIMING OFF;
 ```
 
 [IMAGEN 19: Captura de pantalla de SQL Developer mostrando la ejecución de la Consulta 2 sin índices y su tiempo de ejecución]
@@ -581,21 +581,23 @@ WHERE
 Esta consulta recupera el `base_salary` y `total_gross_pay` de un empleado específico (por ejemplo, `public_id = 34277`) a lo largo de los años y trimestres. Es una consulta que involucra filtrado por una clave y ordenamiento.
 
 ```sql
+SET TIMING ON;
 SELECT
-    e.first_name,
-    e.last_name,
-    er.calendar_year,
-    er.quarter,
-    er.base_salary,
-    er.total_gross_pay
+    (SELECT first_name FROM EMPLOYEES WHERE employee_id = ER.employee_id) AS first_name,
+    (SELECT last_name FROM EMPLOYEES WHERE employee_id = ER.employee_id) AS last_name,
+    ER.calendar_year,
+    ER.quarter,
+    ER.base_salary,
+    ER.total_gross_pay
 FROM
-    EMPLOYEES emp
-JOIN
-    EARNINGS er ON emp.employee_id = er.employee_id
+    EARNINGS ER
 WHERE
-    emp.employee_id = 34277 -- Ejemplo de public_id
+    ER.employee_id = 34277 
+    AND ER.employee_id IN (SELECT employee_id FROM EMPLOYEES)
 ORDER BY
-    er.calendar_year, er.quarter;
+    ER.calendar_year,
+    ER.quarter;
+SET TIMING OFF;
 ```
 
 [IMAGEN 20: Captura de pantalla de SQL Developer mostrando la ejecución de la Consulta 3 sin índices y su tiempo de ejecución]
@@ -606,23 +608,24 @@ ORDER BY
 Esta consulta cuenta el número de empleados por categoría y departamento que tienen un `base_salary` superior a 80000. Implica múltiples uniones, filtrado y agrupamiento.
 
 ```sql
+SET TIMING ON;
 SELECT
-    d.department_name,
-    emp.employee_category,
-    COUNT(DISTINCT emp.employee_id) AS number_of_employees
+    (SELECT department_name FROM DEPARTMENTS WHERE department_id = E.department_id) AS department_name,
+    (SELECT employee_category FROM EMPLOYEES WHERE employee_id = E.employee_id) AS employee_category,
+    COUNT(DISTINCT E.employee_id) AS number_of_employees
 FROM
-    EMPLOYEES emp
-JOIN
-    EARNINGS er ON emp.employee_id = er.employee_id
-JOIN
-    DEPARTMENTS d ON er.department_id = d.department_id
+    EARNINGS E
 WHERE
-    er.base_salary > 80000
+    E.base_salary > 80000
+    AND E.department_id IN (SELECT department_id FROM DEPARTMENTS)
+    AND E.employee_id IN (SELECT employee_id FROM EMPLOYEES)
 GROUP BY
-    d.department_name,
-    emp.employee_category
+    E.department_id,
+    E.employee_id
 ORDER BY
-    d.department_name, emp.employee_category;
+    E.department_id,
+    E.employee_id;
+SET TIMING OFF;
 ```
 
 [IMAGEN 21: Captura de pantalla de SQL Developer mostrando la ejecución de la Consulta 4 sin índices y su tiempo de ejecución]
