@@ -1,0 +1,233 @@
+## Consulta 1:
+
+```json
+[
+  {
+    "$match": {
+      "calendar_year": 2022
+    }
+  },
+  {
+    "$lookup": {
+      "from": "departments",
+      "localField": "department_id",
+      "foreignField": "_id",
+      "as": "department_info"
+    }
+  },
+  {
+    "$unwind": {
+      "path": "$department_info",
+      "preserveNullAndEmptyArrays": true
+    }
+  },
+  {
+    "$group": {
+      "_id": {
+        "department_name": { "$ifNull": [ "$department_info.department_name", "Sin Departamento" ] },
+        "salary_type": "$salary_type"
+      },
+      "total_employees": { "$sum": 1 },
+      "average_base_salary": { "$avg": "$base_salary" },
+      "max_base_salary": { "$max": "$base_salary" },
+      "min_base_salary": { "$min": "$base_salary" }
+    }
+  },
+  {
+    "$sort": {
+      "_id.department_name": 1,
+      "_id.salary_type": 1
+    }
+  },
+  {
+    "$project": {
+      "_id": 0,
+      "department_name": "$_id.department_name",
+      "salary_type": "$_id.salary_type",
+      "total_employees": 1,
+      "average_base_salary": 1,
+      "max_base_salary": 1,
+      "min_base_salary": 1
+    }
+  }
+]
+```
+
+-- COnsulta 2
+
+```json
+[
+  {
+    $match: {
+      calendar_year: 2023,
+      quarter: 4
+    }
+  },
+  {
+    $group: {
+      _id: "$department_id",
+      max_gross_pay: { $max: "$total_gross_pay" }
+    }
+  },
+  {
+    $lookup: {
+      from: "earnings",
+      let: {
+        deptId: "$_id",
+        maxPay: "$max_gross_pay"
+      },
+      pipeline: [
+        {
+          $match: {
+            $expr: {
+              $and: [
+                {
+                  $eq: [
+                    "$department_id",
+                    "$$deptId"
+                  ]
+                },
+                {
+                  $eq: [
+                    "$total_gross_pay",
+                    "$$maxPay"
+                  ]
+                },
+                { $eq: ["$calendar_year", 2023] },
+                { $eq: ["$quarter", 4] }
+              ]
+            }
+          }
+        }
+      ],
+      as: "max_earnings"
+    }
+  },
+  { $unwind: "$max_earnings" },
+  {
+    $lookup: {
+      from: "employees",
+      localField: "max_earnings.employee_id",
+      foreignField: "_id",
+      as: "employee_info"
+    }
+  },
+  { $unwind: "$employee_info" },
+  {
+    $lookup: {
+      from: "departments",
+      localField: "_id",
+      foreignField: "_id",
+      as: "department_info"
+    }
+  },
+  { $unwind: "$department_info" },
+  {
+    $project: {
+      _id: 0,
+      first_name: "$employee_info.first_name",
+      last_name: "$employee_info.last_name",
+      department_name:
+        "$department_info.department_name",
+      total_gross_pay:
+        "$max_earnings.total_gross_pay"
+    }
+  }
+]
+```
+
+-- Consulta 3
+```json
+[
+  {
+    $match: {
+      employee_id: 34277
+    }
+  },
+  {
+    $lookup: {
+      from: "employees",
+      localField: "employee_id",
+      foreignField: "_id",
+      as: "employee_info"
+    }
+  },
+  {
+    $unwind: "$employee_info"
+  },
+  {
+    $project: {
+      _id: 0,
+      first_name: "$employee_info.first_name",
+      last_name: "$employee_info.last_name",
+      calendar_year: 1,
+      quarter: 1,
+      base_salary: 1,
+      total_gross_pay: 1
+    }
+  },
+  {
+    $sort: {
+      calendar_year: 1,
+      quarter: 1
+    }
+  }
+]
+```
+--consulta 4
+```json
+[
+  {
+    $match: {
+      base_salary: { $gt: 80000 }
+    }
+  },
+  {
+    $lookup: {
+      from: "employees",
+      localField: "employee_id",
+      foreignField: "_id",
+      as: "employee_info"
+    }
+  },
+  { $unwind: "$employee_info" },
+  {
+    $lookup: {
+      from: "departments",
+      localField: "department_id",
+      foreignField: "_id",
+      as: "department_info"
+    }
+  },
+  { $unwind: "$department_info" },
+  {
+    $group: {
+      _id: {
+        department_name:
+          "$department_info.department_name",
+        employee_category:
+          "$employee_info.employee_category"
+      },
+      number_of_employees: {
+        $addToSet: "$employee_id"
+      }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      department_name: "$_id.department_name",
+      employee_category: "$_id.employee_category",
+      number_of_employees: {
+        $size: "$number_of_employees"
+      }
+    }
+  },
+  {
+    $sort: {
+      department_name: 1,
+      employee_category: 1
+    }
+  }
+]
+```
